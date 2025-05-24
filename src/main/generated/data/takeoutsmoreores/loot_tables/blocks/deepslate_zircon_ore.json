@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "takeoutsmoreores:gasnite_ore"
+              "name": "takeoutsmoreores:deepslate_zircon_ore"
             },
             {
               "type": "minecraft:item",
@@ -47,7 +47,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "takeoutsmoreores:gasnite"
+              "name": "takeoutsmoreores:raw_zircon"
             }
           ]
         }

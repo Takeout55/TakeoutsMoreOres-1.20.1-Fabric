@@ -22,6 +22,21 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS)
                 .add(ModBlocks.RUBY_ORE)
+                .add(ModBlocks.DEEPSLATE_RUBY_ORE)
+                .add(ModBlocks.END_STONE_RUBY_ORE)
+                .add(ModBlocks.NETHER_RUBY_ORE)
+                .add(ModBlocks.SAPPHIRE_ORE)
+                .add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE)
+                .add(ModBlocks.END_STONE_SAPPHIRE_ORE)
+                .add(ModBlocks.NETHER_SAPPHIRE_ORE)
+                .add(ModBlocks.ZIRCON_ORE)
+                .add(ModBlocks.DEEPSLATE_ZIRCON_ORE)
+                .add(ModBlocks.END_STONE_ZIRCON_ORE)
+                .add(ModBlocks.NETHER_ZIRCON_ORE)
+                .add(ModBlocks.GASNITE_ORE)
+                .add(ModBlocks.DEEPSLATE_GASNITE_ORE)
+                .add(ModBlocks.END_STONE_GASNITE_ORE)
+                .add(ModBlocks.NETHER_GASNITE_ORE)
                 .forceAddTag(BlockTags.GOLD_ORES)
                 .forceAddTag(BlockTags.EMERALD_ORES)
                 .forceAddTag(BlockTags.REDSTONE_ORES)
@@ -33,6 +48,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.RAW_RUBY_BLOCK)
+                .add(ModBlocks.RAW_SAPPHIRE_BLOCK)
                 .add(ModBlocks.RUBY_BLOCK)
                 .add(ModBlocks.RUBY_ORE)
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE)
@@ -41,18 +57,39 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GASNITE_ORE)
                 .add(ModBlocks.DEEPSLATE_GASNITE_ORE)
                 .add(ModBlocks.NETHER_GASNITE_ORE)
-                .add(ModBlocks.END_STONE_GASNITE_ORE);
+                .add(ModBlocks.END_STONE_GASNITE_ORE)
+                .add(ModBlocks.SAPPHIRE_ORE)
+                .add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE)
+                .add(ModBlocks.NETHER_SAPPHIRE_ORE)
+                .add(ModBlocks.END_STONE_SAPPHIRE_ORE)
+                .add(ModBlocks.ZIRCON_ORE)
+                .add(ModBlocks.DEEPSLATE_ZIRCON_ORE)
+                .add(ModBlocks.NETHER_ZIRCON_ORE)
+                .add(ModBlocks.END_STONE_ZIRCON_ORE)
+                .add(ModBlocks.SAPPHIRE_BLOCK)
+                .add(ModBlocks.ZIRCON_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.RUBY_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.RAW_RUBY_BLOCK)
+                .add(ModBlocks.RAW_SAPPHIRE_BLOCK)
                 .add(ModBlocks.RUBY_ORE)
                 .add(ModBlocks.GASNITE_ORE)
                 .add(ModBlocks.DEEPSLATE_GASNITE_ORE)
                 .add(ModBlocks.NETHER_GASNITE_ORE)
-                .add(ModBlocks.END_STONE_GASNITE_ORE);
+                .add(ModBlocks.END_STONE_GASNITE_ORE)
+                .add(ModBlocks.SAPPHIRE_ORE)
+                .add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE)
+                .add(ModBlocks.NETHER_SAPPHIRE_ORE)
+                .add(ModBlocks.END_STONE_SAPPHIRE_ORE)
+                .add(ModBlocks.ZIRCON_ORE)
+                .add(ModBlocks.DEEPSLATE_ZIRCON_ORE)
+                .add(ModBlocks.NETHER_ZIRCON_ORE)
+                .add(ModBlocks.END_STONE_ZIRCON_ORE)
+                .add(ModBlocks.SAPPHIRE_BLOCK)
+                .add(ModBlocks.ZIRCON_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE);

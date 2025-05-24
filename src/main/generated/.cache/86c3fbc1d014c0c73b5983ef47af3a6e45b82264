@@ -1,7 +1,7 @@
-// 1.20.1	2025-05-24T23:11:10.3610692	Takeout's More Ores/Tags for minecraft:block
+// 1.20.1	2025-05-24T23:58:47.8226982	Takeout's More Ores/Tags for minecraft:block
 a9537ea427a49e2437d04a0118552a6563e69530 data\minecraft\tags\blocks\needs_stone_tool.json
 d902c872a8d08de14a5917fd0c549e9e10089ffd data\fabric\tags\blocks\needs_tool_level_4.json
-f07cce5d3ec3893ef504f79475c3835ccf147733 data\minecraft\tags\blocks\needs_iron_tool.json
+8ae26af19a0d2753272dea04d5ebcc3378054b5c data\minecraft\tags\blocks\needs_iron_tool.json
 be8ebf4efb3a267fcb853e80d061576bf2f4f385 data\minecraft\tags\blocks\needs_diamond_tool.json
-ea0d505a3b65c987bf1c7dacd838a2e19bee9e7e data\takeoutsmoreores\tags\blocks\metal_detector_detectable_blocks.json
-9e7ec8b56901623754a95212a4052479ad178635 data\minecraft\tags\blocks\mineable\pickaxe.json
+f4994967f53125c351ae5647e2e4677a7166362a data\takeoutsmoreores\tags\blocks\metal_detector_detectable_blocks.json
+22b5def0ee6b47f027cd4e1f980be7bab6984a38 data\minecraft\tags\blocks\mineable\pickaxe.json

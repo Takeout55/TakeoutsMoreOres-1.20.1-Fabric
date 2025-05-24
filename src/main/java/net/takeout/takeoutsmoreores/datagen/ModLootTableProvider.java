@@ -31,10 +31,20 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.NETHER_RUBY_ORE, copperLikeOreDrops(ModBlocks.NETHER_RUBY_ORE, ModItems.RAW_RUBY));
         addDrop(ModBlocks.END_STONE_RUBY_ORE, copperLikeOreDrops(ModBlocks.END_STONE_RUBY_ORE, ModItems.RAW_RUBY));
 
-        addDrop(ModBlocks.GASNITE_ORE, copperLikeOreDrops(ModBlocks.GASNITE_ORE, ModItems.RAW_RUBY));
+        addDrop(ModBlocks.GASNITE_ORE, copperLikeOreDrops(ModBlocks.GASNITE_ORE, ModItems.GASNITE));
         addDrop(ModBlocks.DEEPSLATE_GASNITE_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_GASNITE_ORE, ModItems.GASNITE));
         addDrop(ModBlocks.NETHER_GASNITE_ORE, copperLikeOreDrops(ModBlocks.NETHER_GASNITE_ORE, ModItems.GASNITE));
         addDrop(ModBlocks.END_STONE_GASNITE_ORE, copperLikeOreDrops(ModBlocks.END_STONE_GASNITE_ORE, ModItems.GASNITE));
+
+        addDrop(ModBlocks.SAPPHIRE_ORE, copperLikeOreDrops(ModBlocks.SAPPHIRE_ORE, ModItems.RAW_SAPPHIRE));
+        addDrop(ModBlocks.DEEPSLATE_SAPPHIRE_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_SAPPHIRE_ORE, ModItems.RAW_SAPPHIRE));
+        addDrop(ModBlocks.NETHER_SAPPHIRE_ORE, copperLikeOreDrops(ModBlocks.NETHER_SAPPHIRE_ORE, ModItems.RAW_SAPPHIRE));
+        addDrop(ModBlocks.END_STONE_SAPPHIRE_ORE, copperLikeOreDrops(ModBlocks.END_STONE_SAPPHIRE_ORE, ModItems.RAW_SAPPHIRE));
+
+        addDrop(ModBlocks.ZIRCON_ORE, copperLikeOreDrops(ModBlocks.ZIRCON_ORE, ModItems.RAW_ZIRCON));
+        addDrop(ModBlocks.DEEPSLATE_ZIRCON_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_ZIRCON_ORE, ModItems.RAW_ZIRCON));
+        addDrop(ModBlocks.NETHER_ZIRCON_ORE, copperLikeOreDrops(ModBlocks.NETHER_ZIRCON_ORE, ModItems.RAW_ZIRCON));
+        addDrop(ModBlocks.END_STONE_ZIRCON_ORE, copperLikeOreDrops(ModBlocks.END_STONE_ZIRCON_ORE, ModItems.RAW_ZIRCON));
     }
 
     public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {

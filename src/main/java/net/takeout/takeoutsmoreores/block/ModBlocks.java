@@ -1,6 +1,5 @@
 package net.takeout.takeoutsmoreores.block;
 
-import net.fabricmc.fabric.api.block.v1.FabricBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -15,6 +14,15 @@ import net.takeout.takeoutsmoreores.TakeoutsMoreOres;
 public class ModBlocks {
 
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
+    public static final Block ZIRCON_BLOCK = registerBlock("zircon_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
+    public static final Block RAW_SAPPHIRE_BLOCK = registerBlock("raw_sapphire_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
+    public static final Block SAPPHIRE_BLOCK = registerBlock("sapphire_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
@@ -42,6 +50,30 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
 
     public static final Block END_STONE_GASNITE_ORE = registerBlock("end_stone_gasnite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+
+    public static final Block SAPPHIRE_ORE = registerBlock("sapphire_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+
+    public static final Block DEEPSLATE_SAPPHIRE_ORE = registerBlock("deepslate_sapphire_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
+
+    public static final Block NETHER_SAPPHIRE_ORE = registerBlock("nether_sapphire_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
+
+    public static final Block END_STONE_SAPPHIRE_ORE = registerBlock("end_stone_sapphire_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+
+    public static final Block ZIRCON_ORE = registerBlock("zircon_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+
+    public static final Block DEEPSLATE_ZIRCON_ORE = registerBlock("deepslate_zircon_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
+
+    public static final Block NETHER_ZIRCON_ORE = registerBlock("nether_zircon_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
+
+    public static final Block END_STONE_ZIRCON_ORE = registerBlock("end_stone_zircon_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
 
 

@@ -18,5 +18,20 @@
   "tooltip.takeoutsmoreores.metal_detector_tooltip": "Finds valuables underground!",
   "item.takeoutsmoreores.metal_detector": "Metal Detector",
   "item.takeoutsmoreores.refined_diamond": "Refined Diamond",
-  "item.takeoutsmoreores.refined_diamond_shard": "Refined Diamond Shard"
+  "item.takeoutsmoreores.refined_diamond_shard": "Refined Diamond Shard",
+  "block.takeoutsmoreores.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.takeoutsmoreores.sapphire_ore": "Sapphire Ore",
+  "block.takeoutsmoreores.nether_sapphire_ore": "Nether Sapphire Ore",
+  "block.takeoutsmoreores.end_stone_sapphire_ore": "End Stone Sapphire Ore",
+  "block.takeoutsmoreores.deepslate_zircon_ore": "Deepslate Zircon Ore",
+  "block.takeoutsmoreores.zircon_ore": "Zircon Ore",
+  "block.takeoutsmoreores.nether_zircon_ore": "Nether Zircon Ore",
+  "block.takeoutsmoreores.end_stone_zircon_ore": "End Stone Zircon Ore",
+  "block.takeoutsmoreores.zircon_block": "Zircon Block",
+  "block.takeoutsmoreores.sapphire_block": "Sapphire Block",
+  "block.takeoutsmoreores.raw_sapphire_block": "Raw Sapphire Block",
+  "item.takeoutsmoreores.zircon": "Zircon",
+  "item.takeoutsmoreores.raw_zircon": "Raw Zircon",
+  "item.takeoutsmoreores.sapphire": "Sapphire",
+  "item.takeoutsmoreores.raw_sapphire": "Raw Sapphire"
 }

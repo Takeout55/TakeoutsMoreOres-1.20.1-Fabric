@@ -2,10 +2,21 @@
   "replace": false,
   "values": [
     "takeoutsmoreores:raw_ruby_block",
+    "takeoutsmoreores:raw_sapphire_block",
     "takeoutsmoreores:ruby_ore",
     "takeoutsmoreores:gasnite_ore",
     "takeoutsmoreores:deepslate_gasnite_ore",
     "takeoutsmoreores:nether_gasnite_ore",
-    "takeoutsmoreores:end_stone_gasnite_ore"
+    "takeoutsmoreores:end_stone_gasnite_ore",
+    "takeoutsmoreores:sapphire_ore",
+    "takeoutsmoreores:deepslate_sapphire_ore",
+    "takeoutsmoreores:nether_sapphire_ore",
+    "takeoutsmoreores:end_stone_sapphire_ore",
+    "takeoutsmoreores:zircon_ore",
+    "takeoutsmoreores:deepslate_zircon_ore",
+    "takeoutsmoreores:nether_zircon_ore",
+    "takeoutsmoreores:end_stone_zircon_ore",
+    "takeoutsmoreores:sapphire_block",
+    "takeoutsmoreores:zircon_block"
   ]
 }

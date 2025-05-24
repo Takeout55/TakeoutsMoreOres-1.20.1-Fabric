@@ -34,14 +34,25 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.RUBY_BLOCK)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
+                        entries.add(ModBlocks.ZIRCON_BLOCK);
+                        entries.add(ModBlocks.SAPPHIRE_BLOCK);
+                        entries.add(ModBlocks.RAW_SAPPHIRE_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.GASNITE_ORE);
+                        entries.add(ModBlocks.ZIRCON_ORE);
+                        entries.add(ModBlocks.SAPPHIRE_ORE);
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ModBlocks.DEEPSLATE_GASNITE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_ZIRCON_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
                         entries.add(ModBlocks.NETHER_GASNITE_ORE);
+                        entries.add(ModBlocks.NETHER_ZIRCON_ORE);
+                        entries.add(ModBlocks.NETHER_SAPPHIRE_ORE);
                         entries.add(ModBlocks.END_STONE_RUBY_ORE);
                         entries.add(ModBlocks.END_STONE_GASNITE_ORE);
+                        entries.add(ModBlocks.END_STONE_ZIRCON_ORE);
+                        entries.add(ModBlocks.END_STONE_SAPPHIRE_ORE);
                     }).build());
 
 
