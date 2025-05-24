@@ -32,24 +32,23 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.RAW_RUBY_BLOCK)
-                .add(ModBlocks.RUBY_BLOCK);
-        //        .add(ModBlocks.RUBY_ORE)
-        //        .add(ModBlocks.DEEPSLATE_RUBY_ORE)
-        //        .add(ModBlocks.NETHER_RUBY_ORE)
-        //        .add(ModBlocks.END_STONE_RUBY_ORE)
-        //        .add(ModBlocks.SOUND_BLOCK);
+                .add(ModBlocks.RUBY_BLOCK)
+                .add(ModBlocks.RUBY_ORE)
+                .add(ModBlocks.DEEPSLATE_RUBY_ORE)
+                .add(ModBlocks.NETHER_RUBY_ORE)
+                .add(ModBlocks.END_STONE_RUBY_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.RUBY_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.RAW_RUBY_BLOCK);
-        //        .add(ModBlocks.RUBY_ORE);
+                .add(ModBlocks.RAW_RUBY_BLOCK)
+                .add(ModBlocks.RUBY_ORE);
 
-        //getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
-        //        .add(ModBlocks.DEEPSLATE_RUBY_ORE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.DEEPSLATE_RUBY_ORE);
 
-        //getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))
-        //        .add(ModBlocks.END_STONE_RUBY_ORE);
+        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))
+                .add(ModBlocks.END_STONE_RUBY_ORE);
     }
 }
