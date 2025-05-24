@@ -36,14 +36,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RUBY_ORE)
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE)
                 .add(ModBlocks.NETHER_RUBY_ORE)
-                .add(ModBlocks.END_STONE_RUBY_ORE);
+                .add(ModBlocks.END_STONE_RUBY_ORE)
+                .add(ModBlocks.GASNITE_ORE)
+                .add(ModBlocks.DEEPSLATE_GASNITE_ORE)
+                .add(ModBlocks.NETHER_GASNITE_ORE)
+                .add(ModBlocks.END_STONE_GASNITE_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.RUBY_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.RAW_RUBY_BLOCK)
-                .add(ModBlocks.RUBY_ORE);
+                .add(ModBlocks.RUBY_ORE)
+                .add(ModBlocks.GASNITE_ORE)
+                .add(ModBlocks.DEEPSLATE_GASNITE_ORE)
+                .add(ModBlocks.NETHER_GASNITE_ORE)
+                .add(ModBlocks.END_STONE_GASNITE_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE);

@@ -8,6 +8,7 @@ import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
+import net.takeout.takeoutsmoreores.block.ModBlocks;
 import net.takeout.takeoutsmoreores.item.ModItems;
 
 import java.util.List;
@@ -42,6 +43,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('R', ModItems.RUBY)
                 .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.RAW_RUBY)));
+                .offerTo(exporter, new Identifier("raw_ruby_from_crafting"));
     }
 }

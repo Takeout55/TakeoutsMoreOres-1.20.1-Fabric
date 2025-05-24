@@ -8,5 +8,10 @@
   "block.takeoutsmoreores.deepslate_ruby_ore": "Mwyn Rhuddem Deepslate",
   "block.takeoutsmoreores.ruby_ore": "Mwyn Rhuddem",
   "block.takeoutsmoreores.nether_ruby_ore": "Mwyn Rhuddem y Nether",
-  "block.takeoutsmoreores.end_stone_ruby_ore": "Mwyn Rhuddem y Ddiwedd"
+  "block.takeoutsmoreores.end_stone_ruby_ore": "Mwyn Rhuddem y Ddiwedd",
+  "block.takeoutsmoreores.deepslate_gasnite_ore": "Mwyn Tanifed Deepslate",
+  "block.takeoutsmoreores.gasnite_ore": "Mwyn Tanifed",
+  "block.takeoutsmoreores.nether_gasnite_ore": "Mwyn Tanifed y Nether",
+  "block.takeoutsmoreores.end_stone_gasnite_ore": "Mwyn Tanifed y Ddiwedd",
+  "item.takeoutsmoreores.gasnite": "Tanifed"
 }

@@ -21,12 +21,18 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_RUBY_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_RUBY_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_RUBY_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GASNITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_GASNITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_GASNITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_GASNITE_ORE);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.RUBY, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_RUBY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GASNITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COAL_BRIQUETTE, Models.GENERATED);
 
     //    itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
     }

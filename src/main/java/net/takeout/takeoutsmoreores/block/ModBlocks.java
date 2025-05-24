@@ -32,6 +32,18 @@ public class ModBlocks {
     public static final Block END_STONE_RUBY_ORE = registerBlock("end_stone_ruby_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
 
+    public static final Block GASNITE_ORE = registerBlock("gasnite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+
+    public static final Block DEEPSLATE_GASNITE_ORE = registerBlock("deepslate_gasnite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
+
+    public static final Block NETHER_GASNITE_ORE = registerBlock("nether_gasnite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
+
+    public static final Block END_STONE_GASNITE_ORE = registerBlock("end_stone_gasnite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

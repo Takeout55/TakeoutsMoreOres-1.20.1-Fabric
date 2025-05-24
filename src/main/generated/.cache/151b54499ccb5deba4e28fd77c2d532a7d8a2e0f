@@ -1,3 +1,11 @@
-// 1.20.1	2025-05-24T18:18:40.6446607	Takeout's More Ores/Block Loot Tables
+// 1.20.1	2025-05-24T20:52:20.7920135	Takeout's More Ores/Block Loot Tables
+e79a26441c7ec5b65e0be3bd4be5d70e940ac4b0 data\takeoutsmoreores\loot_tables\blocks\end_stone_gasnite_ore.json
+e124f1bd830ce1b258a4f94ca5e21dcea2d11ec4 data\takeoutsmoreores\loot_tables\blocks\nether_gasnite_ore.json
 efd9cbc50421f162cc390f422ddd95b72c40f2dc data\takeoutsmoreores\loot_tables\blocks\raw_ruby_block.json
+5f79ae981879187942422b61dab12e59c921fc59 data\takeoutsmoreores\loot_tables\blocks\deepslate_ruby_ore.json
 cba42b17c358b21be8cb7f9336ab0c5a3062efa4 data\takeoutsmoreores\loot_tables\blocks\ruby_block.json
+b4d70af4cdd60c15e63b5e32bc377cb4a1e46464 data\takeoutsmoreores\loot_tables\blocks\end_stone_ruby_ore.json
+13733bea8454e18d1c3515e4a85a02ce4af4fa18 data\takeoutsmoreores\loot_tables\blocks\gasnite_ore.json
+cb9ef6cb72a1a3cd5c0a65e4c8b393524310eb4b data\takeoutsmoreores\loot_tables\blocks\ruby_ore.json
+74d49ee4d5def8861e3d10ff59effb8ab09ae82d data\takeoutsmoreores\loot_tables\blocks\deepslate_gasnite_ore.json
+5d35914b996eefa187b3937b8093f74324f13a6a data\takeoutsmoreores\loot_tables\blocks\nether_ruby_ore.json

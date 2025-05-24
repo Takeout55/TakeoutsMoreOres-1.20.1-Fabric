@@ -2,6 +2,7 @@ package net.takeout.takeoutsmoreores;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.takeout.takeoutsmoreores.block.ModBlocks;
 import net.takeout.takeoutsmoreores.item.ModItemGroups;
 import net.takeout.takeoutsmoreores.item.ModItems;
@@ -18,5 +19,8 @@ public class TakeoutsMoreOres implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
+
+		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
+		FuelRegistry.INSTANCE.add(ModItems.GASNITE, 200);
 	}
 }

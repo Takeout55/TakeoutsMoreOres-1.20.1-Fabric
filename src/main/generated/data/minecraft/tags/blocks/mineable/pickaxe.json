@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     "takeoutsmoreores:raw_ruby_block",
-    "takeoutsmoreores:ruby_block"
+    "takeoutsmoreores:ruby_block",
+    "takeoutsmoreores:ruby_ore",
+    "takeoutsmoreores:deepslate_ruby_ore",
+    "takeoutsmoreores:nether_ruby_ore",
+    "takeoutsmoreores:end_stone_ruby_ore",
+    "takeoutsmoreores:gasnite_ore",
+    "takeoutsmoreores:deepslate_gasnite_ore",
+    "takeoutsmoreores:nether_gasnite_ore",
+    "takeoutsmoreores:end_stone_gasnite_ore"
   ]
 }

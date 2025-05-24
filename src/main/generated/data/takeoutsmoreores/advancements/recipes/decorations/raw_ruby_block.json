@@ -1,24 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_ruby": {
+    "has_raw_ruby": {
       "conditions": {
         "items": [
           {
             "items": [
-              "takeoutsmoreores:ruby"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_stone": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:stone"
+              "takeoutsmoreores:raw_ruby"
             ]
           }
         ]
@@ -27,21 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:raw_ruby"
+        "recipe": "minecraft:raw_ruby_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_stone",
-      "has_ruby",
+      "has_raw_ruby",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:raw_ruby"
+      "minecraft:raw_ruby_block"
     ]
   },
   "sends_telemetry_event": false
