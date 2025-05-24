@@ -4,7 +4,9 @@
   "itemgroup.more_ores_items": "Takeout's Fwy o Mwynau: Eitemau!",
   "itemgroup.more_ores_blocks": "Takeout's Fwy o Mwynau: Blociau!",
   "block.takeoutsmoreores.ruby_block": "Bloc o Rhuddem",
-  "block.takeoutsmoreores.raw_ruby_block": "Block o Rhuddem Crai",
+  "block.takeoutsmoreores.raw_ruby_block": "Bloc o Rhuddem Crai",
   "block.takeoutsmoreores.deepslate_ruby_ore": "Mwyn Rhuddem Deepslate",
   "block.takeoutsmoreores.ruby_ore": "Mwyn Rhuddem",
+  "block.takeoutsmoreores.nether_ruby_ore": "Mwyn Rhuddem y Nether",
+  "block.takeoutsmoreores.end_stone_ruby_ore": "Mwyn Rhuddem y Ddiwedd"
 }
