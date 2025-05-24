@@ -33,7 +33,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_RUBY, Models.GENERATED);
         itemModelGenerator.register(ModItems.GASNITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.COAL_BRIQUETTE, Models.GENERATED);
-
-    //    itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SAPPHIRE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_SAPPHIRE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ZIRCON, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_ZIRCON, Models.GENERATED);
+        itemModelGenerator.register(ModItems.REFINED_DIAMOND, Models.GENERATED);
+        itemModelGenerator.register(ModItems.REFINED_DIAMOND_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
     }
 }

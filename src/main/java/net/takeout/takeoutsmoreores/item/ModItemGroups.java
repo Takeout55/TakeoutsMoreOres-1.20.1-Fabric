@@ -16,7 +16,16 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.more_ores_items"))
             .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                 entries.add(ModItems.RUBY);
+                entries.add(ModItems.REFINED_DIAMOND);
+                entries.add(ModItems.REFINED_DIAMOND_SHARD);
+                entries.add(ModItems.ZIRCON);
+                entries.add(ModItems.SAPPHIRE);
+                entries.add(ModItems.RAW_SAPPHIRE);
+                entries.add(ModItems.RAW_ZIRCON);
                 entries.add(ModItems.RAW_RUBY);
+                entries.add(ModItems.GASNITE);
+                entries.add(ModItems.COAL_BRIQUETTE);
+                entries.add(ModItems.METAL_DETECTOR);
             }).build());
 
 
@@ -26,9 +35,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.GASNITE_ORE);
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_GASNITE_ORE);
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
+                        entries.add(ModBlocks.NETHER_GASNITE_ORE);
                         entries.add(ModBlocks.END_STONE_RUBY_ORE);
+                        entries.add(ModBlocks.END_STONE_GASNITE_ORE);
                     }).build());
 
 

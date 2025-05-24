@@ -18,6 +18,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     private static final List<ItemConvertible> RUBY_SMELTABLES = List.of(ModItems.RAW_RUBY,
             ModBlocks.RUBY_ORE, ModBlocks.DEEPSLATE_RUBY_ORE, ModBlocks.NETHER_RUBY_ORE, ModBlocks.END_STONE_RUBY_ORE);
 
+    private static final List<ItemConvertible> GASNITE_SMELTABLES = List.of(ModBlocks.GASNITE_ORE,
+            ModBlocks.DEEPSLATE_GASNITE_ORE, ModBlocks.NETHER_GASNITE_ORE, ModBlocks.END_STONE_GASNITE_ORE);
+
+    //private static final List<ItemConvertible> SAPPHIRE_SMELTABLES = List.of(ModBlocks.GASNITE_ORE,
+    //        ModBlocks.DEEPSLATE_GASNITE_ORE, ModBlocks.NETHER_GASNITE_ORE, ModBlocks.END_STONE_GASNITE_ORE);
+
+    //private static final List<ItemConvertible> ZIRCON_SMELTABLES = List.of(ModBlocks.GASNITE_ORE,
+    //        ModBlocks.DEEPSLATE_GASNITE_ORE, ModBlocks.NETHER_GASNITE_ORE, ModBlocks.END_STONE_GASNITE_ORE);
+
     public ModRecipeProvider(FabricDataOutput output) {
         super(output);
     }
@@ -27,6 +36,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSmelting(exporter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY,
                 0.7f, 200, "ruby");
         offerBlasting(exporter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY,
+                0.7f, 100, "ruby");
+        offerSmelting(exporter, GASNITE_SMELTABLES, RecipeCategory.MISC, ModItems.GASNITE,
+                0.7f, 200, "ruby");
+        offerBlasting(exporter, GASNITE_SMELTABLES, RecipeCategory.MISC, ModItems.GASNITE,
                 0.7f, 100, "ruby");
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RUBY, RecipeCategory.DECORATIONS,
@@ -44,5 +57,21 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter, new Identifier("raw_ruby_from_crafting"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REFINED_DIAMOND, 1)
+                .pattern("DD")
+                .pattern("DD")
+                .input('D', ModItems.REFINED_DIAMOND_SHARD)
+                .criterion(hasItem(ModItems.REFINED_DIAMOND_SHARD), conditionsFromItem(ModItems.REFINED_DIAMOND_SHARD))
+                .offerTo(exporter, new Identifier("refined_diamond_from_shards"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.METAL_DETECTOR, 1)
+                .pattern("S  ")
+                .pattern(" S ")
+                .pattern(" II")
+                .input('S', Items.STICK)
+                .input('I', Items.IRON_INGOT)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier("metal_detector_from_crafting"));
     }
 }

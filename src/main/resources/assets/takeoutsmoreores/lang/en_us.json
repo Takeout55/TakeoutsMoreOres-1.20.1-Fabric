@@ -14,5 +14,9 @@
   "block.takeoutsmoreores.nether_gasnite_ore": "Nether Gasnite Ore",
   "block.takeoutsmoreores.end_stone_gasnite_ore": "End Stone Gasnite Ore",
   "item.takeoutsmoreores.gasnite": "Gasnite",
-  "item.takeoutsmoreores.coal_briquette": "Coal Briquette"
+  "item.takeoutsmoreores.coal_briquette": "Coal Briquette",
+  "tooltip.takeoutsmoreores.metal_detector_tooltip": "Finds valuables underground!",
+  "item.takeoutsmoreores.metal_detector": "Metal Detector",
+  "item.takeoutsmoreores.refined_diamond": "Refined Diamond",
+  "item.takeoutsmoreores.refined_diamond_shard": "Refined Diamond Shard"
 }
