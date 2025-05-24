@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.takeout.takeoutsmoreores.TakeoutsMoreOres;
+import net.takeout.takeoutsmoreores.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup MORE_ORES_ITEMS = Registry.register(Registries.ITEM_GROUP, new Identifier(TakeoutsMoreOres.MOD_ID, "more_ores_items"),
@@ -16,9 +17,15 @@ public class ModItemGroups {
             .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                 entries.add(ModItems.RUBY);
                 entries.add(ModItems.RAW_RUBY);
-
-
             }).build());
+
+
+    public static final ItemGroup MORE_ORES_BLOCKS = Registry.register(Registries.ITEM_GROUP, new Identifier(TakeoutsMoreOres.MOD_ID, "more_ores_blocks"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.more_ores_blocks"))
+                    .icon(() -> new ItemStack(ModBlocks.RUBY_BLOCK)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
+                    }).build());
 
 
     public static void registerItemGroups() {

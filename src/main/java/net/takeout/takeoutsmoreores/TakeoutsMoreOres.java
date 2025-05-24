@@ -2,6 +2,7 @@ package net.takeout.takeoutsmoreores;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.takeout.takeoutsmoreores.block.ModBlocks;
 import net.takeout.takeoutsmoreores.item.ModItemGroups;
 import net.takeout.takeoutsmoreores.item.ModItems;
 import org.slf4j.Logger;
@@ -15,6 +16,7 @@ public class TakeoutsMoreOres implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

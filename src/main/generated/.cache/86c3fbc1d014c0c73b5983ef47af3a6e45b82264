@@ -1,0 +1,4 @@
+// 1.20.1	2025-05-24T18:18:40.6446607	Takeout's More Ores/Tags for minecraft:block
+a9537ea427a49e2437d04a0118552a6563e69530 data\minecraft\tags\blocks\needs_stone_tool.json
+210c85052c9de5f31d4c6967c17de16cd08b4d8b data\minecraft\tags\blocks\needs_iron_tool.json
+433a674f2bfe1f4aaffa6369d0e989e8306a6614 data\minecraft\tags\blocks\mineable\pickaxe.json

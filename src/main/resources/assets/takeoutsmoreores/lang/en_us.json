@@ -1,5 +1,8 @@
 {
   "item.takeoutsmoreores.ruby": "Ruby",
   "item.takeoutsmoreores.raw_ruby": "Raw Ruby",
-  "itemgroup.more_ores_items": "Takeout's More Ores: Items!"
+  "itemgroup.more_ores_items": "Takeout's More Ores: Items!",
+  "itemgroup.more_ores_blocks": "Takeout's More Ores: Blocks!",
+  "block.takeoutsmoreores.raw_ruby_block": "Raw Ruby Block",
+  "block.takeoutsmoreores.ruby_block": "Ruby Block"
 }
