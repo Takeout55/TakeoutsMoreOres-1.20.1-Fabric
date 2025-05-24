@@ -5,4 +5,8 @@
   "itemgroup.more_ores_blocks": "Takeout's More Ores: Blocks!",
   "block.takeoutsmoreores.raw_ruby_block": "Raw Ruby Block",
   "block.takeoutsmoreores.ruby_block": "Ruby Block"
+  "block.takeoutsmoreores.ruby_ore": "Ruby Ore",
+  "block.takeoutsmoreores.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.takeoutsmoreores.end_stone_ruby_ore": "End Stone Ruby Ore",
+  "block.takeoutsmoreores.nether_ruby_ore": "Nether Ruby Ore"
 }
