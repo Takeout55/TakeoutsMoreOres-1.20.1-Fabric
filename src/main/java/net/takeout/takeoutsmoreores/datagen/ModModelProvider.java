@@ -73,7 +73,14 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_ZIRCON, Models.GENERATED);
         itemModelGenerator.register(ModItems.REFINED_DIAMOND, Models.GENERATED);
         itemModelGenerator.register(ModItems.REFINED_DIAMOND_SHARD, Models.GENERATED);
-        //itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EARIUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_EARIUM, Models.GENERATED);
+        itemModelGenerator.regidter(ModItems.GLITCHITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHEESIUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_CHEESIUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.THIMEITE, Models.GENERATED);
+
+        
         itemModelGenerator.register(ModItems.RUBY_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.RUBY_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.RUBY_SHOVEL, Models.HANDHELD);
