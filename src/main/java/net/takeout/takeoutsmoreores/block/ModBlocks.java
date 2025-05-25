@@ -2,8 +2,7 @@ package net.takeout.takeoutsmoreores.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -75,6 +74,50 @@ public class ModBlocks {
 
     public static final Block END_STONE_ZIRCON_ORE = registerBlock("end_stone_zircon_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+
+    public static final Block REFINED_DIAMOND_BLOCK = registerBlock("refined_diamond_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
+
+    public static final Block ANCIENT_VOIDSTONE = registerBlock("ancient_voidstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
+
+    public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
+            new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK)));
+    public static final Block RUBY_SLAB = registerBlock("ruby_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK)));
+    public static final Block RUBY_DOOR = registerBlock("ruby_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK), BlockSetType.IRON));
+    public static final Block RUBY_FENCE = registerBlock("ruby_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK)));
+    public static final Block RUBY_FENCE_GATE = registerBlock("ruby_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK), WoodType.ACACIA));
+    public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK), BlockSetType.IRON));
+    public static final Block RUBY_BUTTON = registerBlock("ruby_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK), BlockSetType.IRON, 10, true));
+    public static final Block RUBY_PRESSURE_PLATE = registerBlock("ruby_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK), BlockSetType.IRON));
+    public static final Block RUBY_WALL = registerBlock("ruby_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK)));
+
+    public static final Block SAPPHIRE_STAIRS = registerBlock("sapphire_stairs",
+            new StairsBlock(ModBlocks.SAPPHIRE_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.SAPPHIRE_BLOCK)));
+    public static final Block SAPPHIRE_SLAB = registerBlock("sapphire_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.SAPPHIRE_BLOCK)));
+    public static final Block SAPPHIRE_DOOR = registerBlock("sapphire_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.SAPPHIRE_BLOCK), BlockSetType.IRON));
+    public static final Block SAPPHIRE_FENCE = registerBlock("sapphire_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.SAPPHIRE_BLOCK)));
+    public static final Block SAPPHIRE_FENCE_GATE = registerBlock("sapphire_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.SAPPHIRE_BLOCK), WoodType.ACACIA));
+    public static final Block SAPPHIRE_TRAPDOOR = registerBlock("sapphire_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.SAPPHIRE_BLOCK), BlockSetType.IRON));
+    public static final Block SAPPHIRE_BUTTON = registerBlock("sapphire_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.SAPPHIRE_BLOCK), BlockSetType.IRON, 10, true));
+    public static final Block SAPPHIRE_PRESSURE_PLATE = registerBlock("sapphire_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(ModBlocks.SAPPHIRE_BLOCK), BlockSetType.IRON));
+    public static final Block SAPPHIRE_WALL = registerBlock("sapphire_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.SAPPHIRE_BLOCK)));
 
 
     private static Block registerBlock(String name, Block block) {

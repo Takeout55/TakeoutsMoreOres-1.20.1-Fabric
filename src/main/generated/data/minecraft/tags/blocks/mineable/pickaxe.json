@@ -21,6 +21,7 @@
     "takeoutsmoreores:nether_zircon_ore",
     "takeoutsmoreores:end_stone_zircon_ore",
     "takeoutsmoreores:sapphire_block",
-    "takeoutsmoreores:zircon_block"
+    "takeoutsmoreores:zircon_block",
+    "takeoutsmoreores:refined_diamond_block"
   ]
 }

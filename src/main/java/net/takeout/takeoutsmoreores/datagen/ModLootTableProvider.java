@@ -25,6 +25,30 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.RUBY_BLOCK);
         addDrop(ModBlocks.RAW_RUBY_BLOCK);
+        addDrop(ModBlocks.ZIRCON_BLOCK);
+        addDrop(ModBlocks.RAW_SAPPHIRE_BLOCK);
+        addDrop(ModBlocks.SAPPHIRE_BLOCK);
+        addDrop(ModBlocks.REFINED_DIAMOND_BLOCK);
+
+        addDrop(ModBlocks.RUBY_STAIRS);
+        addDrop(ModBlocks.RUBY_FENCE);
+        addDrop(ModBlocks.RUBY_FENCE_GATE);
+        addDrop(ModBlocks.RUBY_WALL);
+        addDrop(ModBlocks.RUBY_BUTTON);
+        addDrop(ModBlocks.RUBY_PRESSURE_PLATE);
+        addDrop(ModBlocks.RUBY_TRAPDOOR);
+        addDrop(ModBlocks.RUBY_DOOR, doorDrops(ModBlocks.RUBY_DOOR));
+        addDrop(ModBlocks.RUBY_SLAB, slabDrops(ModBlocks.RUBY_SLAB));
+
+        addDrop(ModBlocks.SAPPHIRE_STAIRS);
+        addDrop(ModBlocks.SAPPHIRE_FENCE);
+        addDrop(ModBlocks.SAPPHIRE_FENCE_GATE);
+        addDrop(ModBlocks.SAPPHIRE_WALL);
+        addDrop(ModBlocks.SAPPHIRE_BUTTON);
+        addDrop(ModBlocks.SAPPHIRE_PRESSURE_PLATE);
+        addDrop(ModBlocks.SAPPHIRE_TRAPDOOR);
+        addDrop(ModBlocks.SAPPHIRE_DOOR, doorDrops(ModBlocks.SAPPHIRE_DOOR));
+        addDrop(ModBlocks.SAPPHIRE_SLAB, slabDrops(ModBlocks.SAPPHIRE_SLAB));
 
         addDrop(ModBlocks.RUBY_ORE, copperLikeOreDrops(ModBlocks.RUBY_ORE, ModItems.RAW_RUBY));
         addDrop(ModBlocks.DEEPSLATE_RUBY_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_RUBY_ORE, ModItems.RAW_RUBY));

@@ -67,7 +67,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.NETHER_ZIRCON_ORE)
                 .add(ModBlocks.END_STONE_ZIRCON_ORE)
                 .add(ModBlocks.SAPPHIRE_BLOCK)
-                .add(ModBlocks.ZIRCON_BLOCK);
+                .add(ModBlocks.ZIRCON_BLOCK)
+                .add(ModBlocks.REFINED_DIAMOND_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.RUBY_BLOCK);
@@ -89,12 +90,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.NETHER_ZIRCON_ORE)
                 .add(ModBlocks.END_STONE_ZIRCON_ORE)
                 .add(ModBlocks.SAPPHIRE_BLOCK)
-                .add(ModBlocks.ZIRCON_BLOCK);
+                .add(ModBlocks.ZIRCON_BLOCK)
+                .add(ModBlocks.REFINED_DIAMOND_BLOCK)
+                .add(ModBlocks.ANCIENT_VOIDSTONE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                .add(ModBlocks.DEEPSLATE_RUBY_ORE)
+                .add(ModBlocks.ANCIENT_VOIDSTONE);
 
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))
                 .add(ModBlocks.END_STONE_RUBY_ORE);
+
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.RUBY_FENCE)
+                .add(ModBlocks.SAPPHIRE_FENCE);
+
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.RUBY_FENCE_GATE)
+                .add(ModBlocks.SAPPHIRE_FENCE_GATE);
+
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.RUBY_WALL)
+                .add(ModBlocks.SAPPHIRE_WALL);
     }
 }

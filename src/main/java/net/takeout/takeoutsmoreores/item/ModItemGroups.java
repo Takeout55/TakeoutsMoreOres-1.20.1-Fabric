@@ -26,6 +26,8 @@ public class ModItemGroups {
                 entries.add(ModItems.GASNITE);
                 entries.add(ModItems.COAL_BRIQUETTE);
                 entries.add(ModItems.METAL_DETECTOR);
+                entries.add(ModItems.RUBY_STAFF);
+                entries.add(ModItems.SAPPHIRE_STAFF);
             }).build());
 
 
@@ -37,6 +39,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ZIRCON_BLOCK);
                         entries.add(ModBlocks.SAPPHIRE_BLOCK);
                         entries.add(ModBlocks.RAW_SAPPHIRE_BLOCK);
+                        entries.add(ModBlocks.REFINED_DIAMOND_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.GASNITE_ORE);
                         entries.add(ModBlocks.ZIRCON_ORE);
@@ -53,6 +56,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.END_STONE_GASNITE_ORE);
                         entries.add(ModBlocks.END_STONE_ZIRCON_ORE);
                         entries.add(ModBlocks.END_STONE_SAPPHIRE_ORE);
+                        entries.add(ModBlocks.ANCIENT_VOIDSTONE);
+                        entries.add(ModBlocks.RUBY_STAIRS);
+                        entries.add(ModBlocks.RUBY_FENCE);
+                        entries.add(ModBlocks.RUBY_FENCE_GATE);
+                        entries.add(ModBlocks.RUBY_WALL);
+                        entries.add(ModBlocks.RUBY_DOOR);
+                        entries.add(ModBlocks.RUBY_TRAPDOOR);
+                        entries.add(ModBlocks.RUBY_BUTTON);
+                        entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SAPPHIRE_STAIRS);
+                        entries.add(ModBlocks.SAPPHIRE_FENCE);
+                        entries.add(ModBlocks.SAPPHIRE_FENCE_GATE);
+                        entries.add(ModBlocks.SAPPHIRE_WALL);
+                        entries.add(ModBlocks.SAPPHIRE_DOOR);
+                        entries.add(ModBlocks.SAPPHIRE_TRAPDOOR);
+                        entries.add(ModBlocks.SAPPHIRE_BUTTON);
+                        entries.add(ModBlocks.SAPPHIRE_PRESSURE_PLATE);
                     }).build());
 
 
