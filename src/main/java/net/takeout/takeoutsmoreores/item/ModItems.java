@@ -3,7 +3,6 @@ package net.takeout.takeoutsmoreores.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.fabricmc.fabric.impl.itemgroup.FabricItemGroup;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -38,6 +37,39 @@ public class ModItems {
             new FabricItemSettings()));
     public static final Item RUBY_HOE = registerItem("ruby_hoe", new HoeItem(ModToolMaterial.RUBY, 2, 2f,
             new FabricItemSettings()));
+
+    public static final Item SAPPHIRE_PICKAXE = registerItem("sapphire_pickaxe", new PickaxeItem(ModToolMaterial.SAPPHIRE, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item SAPPHIRE_AXE = registerItem("sapphire_axe", new AxeItem(ModToolMaterial.RUBY, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item SAPPHIRE_SHOVEL = registerItem("sapphire_shovel", new ShovelItem(ModToolMaterial.SAPPHIRE, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item SAPPHIRE_SWORD = registerItem("sapphire_sword", new SwordItem(ModToolMaterial.SAPPHIRE, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item SAPPHIRE_HOE = registerItem("sapphire_hoe", new HoeItem(ModToolMaterial.SAPPHIRE, 2, 2f,
+            new FabricItemSettings()));
+
+    public static final Item REFINED_DIAMOND_PICKAXE = registerItem("refined_diamond_pickaxe", new PickaxeItem(ModToolMaterial.REFINED_DIAMOND, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item REFINED_DIAMOND_AXE = registerItem("refined_diamond_axe", new AxeItem(ModToolMaterial.REFINED_DIAMOND, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item REFINED_DIAMOND_SHOVEL = registerItem("refined_diamond_shovel", new ShovelItem(ModToolMaterial.REFINED_DIAMOND, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item REFINED_DIAMOND_SWORD = registerItem("refined_diamond_sword", new SwordItem(ModToolMaterial.REFINED_DIAMOND, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item REFINED_DIAMOND_HOE = registerItem("refined_diamond_hoe", new HoeItem(ModToolMaterial.REFINED_DIAMOND, 2, 2f,
+            new FabricItemSettings()));
+
+    //public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe", new PickaxeItem(ModToolMaterial.RUBY, 2, 2f,
+    //        new FabricItemSettings()));
+    //public static final Item RUBY_AXE = registerItem("ruby_axe", new AxeItem(ModToolMaterial.RUBY, 2, 2f,
+    //        new FabricItemSettings()));
+    //public static final Item RUBY_SHOVEL = registerItem("ruby_shovel", new ShovelItem(ModToolMaterial.RUBY, 2, 2f,
+    //        new FabricItemSettings()));
+    //public static final Item RUBY_SWORD = registerItem("ruby_sword", new SwordItem(ModToolMaterial.RUBY, 2, 2f,
+    //        new FabricItemSettings()));
+    //public static final Item RUBY_HOE = registerItem("ruby_hoe", new HoeItem(ModToolMaterial.RUBY, 2, 2f,
+    //        new FabricItemSettings()));
 
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem
             (new FabricItemSettings().maxDamage(64)));

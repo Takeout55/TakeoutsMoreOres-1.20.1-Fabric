@@ -34,6 +34,16 @@ public class ModItemGroups {
                 entries.add(ModItems.RUBY_AXE);
                 entries.add(ModItems.RUBY_SHOVEL);
                 entries.add(ModItems.RUBY_HOE);
+                entries.add(ModItems.SAPPHIRE_SWORD);
+                entries.add(ModItems.SAPPHIRE_PICKAXE);
+                entries.add(ModItems.SAPPHIRE_AXE);
+                entries.add(ModItems.SAPPHIRE_SHOVEL);
+                entries.add(ModItems.SAPPHIRE_HOE);
+                entries.add(ModItems.REFINED_DIAMOND_SWORD);
+                entries.add(ModItems.REFINED_DIAMOND_PICKAXE);
+                entries.add(ModItems.REFINED_DIAMOND_AXE);
+                entries.add(ModItems.REFINED_DIAMOND_SHOVEL);
+                entries.add(ModItems.REFINED_DIAMOND_HOE);
             }).build());
 
 
