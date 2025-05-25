@@ -23,6 +23,9 @@ public class ModItems {
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
     public static final Item RAW_SAPPHIRE = registerItem("raw_sapphire", new Item(new FabricItemSettings()));
     public static final Item METAL_ROD = registerItem("metal_rod", new Item(new FabricItemSettings()));
+    public static final Item THIMEITE = registerItem("thimeite", new Item(new FabricItemSettings()));
+    public static final Item GLITCHITE = registerItem("glitchite", new Item(new FabricItemSettings()));
+    public static final Item OCARITE = registerItem("ocarite", new Item(new FabricItemSettings()));
 
     public static final Item RUBY_STAFF = registerItem("ruby_staff", new Item(new FabricItemSettings().maxCount(1)));
     public static final Item SAPPHIRE_STAFF = registerItem("sapphire_staff", new Item(new FabricItemSettings().maxCount(1)));
