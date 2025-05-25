@@ -81,6 +81,18 @@ public class ModBlocks {
     public static final Block ANCIENT_VOIDSTONE = registerBlock("ancient_voidstone",
             new Block(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
 
+    public static final Block GLITCHITE_ORE = registerBlock("glitchite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+
+    public static final Block DEEPSLATE_DEEPSLATE_ORE = registerBlock("deepslate_glitchite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
+
+    public static final Block END_STONE_GLITCHITE_ORE = registerBlock("end_stone_glitchite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+
+    public static final Block NETHER_GLITCHITE_ORE = registerBlock("nether_glitchite_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
+
     public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
             new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK)));
     public static final Block RUBY_SLAB = registerBlock("ruby_slab",
