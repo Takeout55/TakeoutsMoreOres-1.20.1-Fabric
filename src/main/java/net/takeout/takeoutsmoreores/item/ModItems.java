@@ -25,6 +25,9 @@ public class ModItems {
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
     public static final Item RAW_SAPPHIRE = registerItem("raw_sapphire", new Item(new FabricItemSettings()));
 
+    public static final Item RUBY_STAFF = registerItem("ruby_staff", new Item(new FabricItemSettings().maxCount(1)));
+    public static final Item SAPPHIRE_STAFF = registerItem("sapphire_staff", new Item(new FabricItemSettings().maxCount(1)));
+
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem
             (new FabricItemSettings().maxDamage(64)));
 
