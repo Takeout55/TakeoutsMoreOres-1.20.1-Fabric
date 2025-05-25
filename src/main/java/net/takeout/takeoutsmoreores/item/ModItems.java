@@ -60,16 +60,14 @@ public class ModItems {
     public static final Item REFINED_DIAMOND_HOE = registerItem("refined_diamond_hoe", new HoeItem(ModToolMaterial.REFINED_DIAMOND, 2, 2f,
             new FabricItemSettings()));
 
-    //public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe", new PickaxeItem(ModToolMaterial.RUBY, 2, 2f,
-    //        new FabricItemSettings()));
-    //public static final Item RUBY_AXE = registerItem("ruby_axe", new AxeItem(ModToolMaterial.RUBY, 2, 2f,
-    //        new FabricItemSettings()));
-    //public static final Item RUBY_SHOVEL = registerItem("ruby_shovel", new ShovelItem(ModToolMaterial.RUBY, 2, 2f,
-    //        new FabricItemSettings()));
-    //public static final Item RUBY_SWORD = registerItem("ruby_sword", new SwordItem(ModToolMaterial.RUBY, 2, 2f,
-    //        new FabricItemSettings()));
-    //public static final Item RUBY_HOE = registerItem("ruby_hoe", new HoeItem(ModToolMaterial.RUBY, 2, 2f,
-    //        new FabricItemSettings()));
+    public static final Item RUBY_HELMET = registerItem("ruby_helmet", new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET,
+            new FabricItemSettings()));
+    public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate", new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE,
+            new FabricItemSettings()));
+    public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings", new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS,
+            new FabricItemSettings()));
+    public static final Item RUBY_BOOTS = registerItem("ruby_boots", new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS,
+            new FabricItemSettings()));
 
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem
             (new FabricItemSettings().maxDamage(64)));

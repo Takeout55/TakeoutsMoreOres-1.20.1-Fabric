@@ -44,6 +44,10 @@ public class ModItemGroups {
                 entries.add(ModItems.REFINED_DIAMOND_AXE);
                 entries.add(ModItems.REFINED_DIAMOND_SHOVEL);
                 entries.add(ModItems.REFINED_DIAMOND_HOE);
+                entries.add(ModItems.RUBY_HELMET);
+                entries.add(ModItems.RUBY_CHESTPLATE);
+                entries.add(ModItems.RUBY_LEGGINGS);
+                entries.add(ModItems.RUBY_BOOTS);
             }).build());
 
 
