@@ -26,6 +26,10 @@ public class ModItems {
     public static final Item THIMEITE = registerItem("thimeite", new Item(new FabricItemSettings()));
     public static final Item GLITCHITE = registerItem("glitchite", new Item(new FabricItemSettings()));
     public static final Item OCARITE = registerItem("ocarite", new Item(new FabricItemSettings()));
+    public static final Item CHEESIUM = registerItem("cheesium", new Item(new FabricItemSettings()));
+    public static final Item RAW_CHEESIUM = registerItem("raw_cheesium", new Item(new FabricItemSettings()));
+    public static final Item EARIUM = registerItem("earium", new Item(new FabricItemSettings()));
+    public static final Item RAW_EARIUM = registerItem("raw_earium", new Item(new FabricItemSettings()));
 
     public static final Item RUBY_STAFF = registerItem("ruby_staff", new Item(new FabricItemSettings().maxCount(1)));
     public static final Item SAPPHIRE_STAFF = registerItem("sapphire_staff", new Item(new FabricItemSettings().maxCount(1)));
