@@ -15,6 +15,7 @@ public class ModItemGroups {
     public static final ItemGroup MORE_ORES_ITEMS = Registry.register(Registries.ITEM_GROUP, new Identifier(TakeoutsMoreOres.MOD_ID, "more_ores_items"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.more_ores_items"))
             .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
+                entries.add(ModItems.METAL_ROD);
                 entries.add(ModItems.RUBY);
                 entries.add(ModItems.REFINED_DIAMOND);
                 entries.add(ModItems.REFINED_DIAMOND_SHARD);
@@ -28,6 +29,11 @@ public class ModItemGroups {
                 entries.add(ModItems.METAL_DETECTOR);
                 entries.add(ModItems.RUBY_STAFF);
                 entries.add(ModItems.SAPPHIRE_STAFF);
+                entries.add(ModItems.RUBY_SWORD);
+                entries.add(ModItems.RUBY_PICKAXE);
+                entries.add(ModItems.RUBY_AXE);
+                entries.add(ModItems.RUBY_SHOVEL);
+                entries.add(ModItems.RUBY_HOE);
             }).build());
 
 

@@ -52,5 +52,11 @@
   "block.takeoutsmoreores.sapphire_button": "Sapphire Button",
   "block.takeoutsmoreores.sapphire_pressure_plate": "Sapphire Pressure Plate",
   "item.takeoutsmoreores.ruby_staff": "Ruby Staff",
-  "item.takeoutsmoreores.sapphire_staff": "Sapphire Staff"
+  "item.takeoutsmoreores.sapphire_staff": "Sapphire Staff",
+  "item.takeoutsmoreores.ruby_sword": "Ruby Sword",
+  "item.takeoutsmoreores.ruby_pickaxe": "Ruby Pickaxe",
+  "item.takeoutsmoreores.ruby_axe": "Ruby Axe",
+  "item.takeoutsmoreores.ruby_shovel": "Ruby Shovel",
+  "item.takeoutsmoreores.ruby_hoe": "Ruby Hoe",
+  "item.takeoutsmoreores.metal_rod": "Metal Rod"
 }
