@@ -79,6 +79,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CHEESIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_CHEESIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.THIMEITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OCARITE, Models.GENERATED);
 
         
         itemModelGenerator.register(ModItems.RUBY_AXE, Models.HANDHELD);
