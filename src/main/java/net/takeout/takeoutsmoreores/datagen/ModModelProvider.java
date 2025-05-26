@@ -41,6 +41,9 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool glitchitePool = blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLITCHITE_BLOCK);
         BlockStateModelGenerator.BlockTexturePool thimeitePool = blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.THIMEITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLITCHITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_GLITCHITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_GLITCHITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_GLITCHITE_ORE);
 
         rubyPool.stairs(ModBlocks.RUBY_STAIRS);
         rubyPool.slab(ModBlocks.RUBY_SLAB);
