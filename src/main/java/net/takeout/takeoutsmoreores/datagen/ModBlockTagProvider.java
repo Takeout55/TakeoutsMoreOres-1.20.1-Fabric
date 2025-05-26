@@ -37,6 +37,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_GASNITE_ORE)
                 .add(ModBlocks.END_STONE_GASNITE_ORE)
                 .add(ModBlocks.NETHER_GASNITE_ORE)
+                .add(ModBlocks.GLITCHITE_ORE)
+                .add(ModBlocks.DEEPSLATE_GLITCHITE_ORE)
+                .add(ModBlocks.END_STONE_GLITCHITE_ORE)
+                .add(ModBlocks.NETHER_GLITCHITE_ORE);
                 .forceAddTag(BlockTags.GOLD_ORES)
                 .forceAddTag(BlockTags.EMERALD_ORES)
                 .forceAddTag(BlockTags.REDSTONE_ORES)
@@ -68,7 +72,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.END_STONE_ZIRCON_ORE)
                 .add(ModBlocks.SAPPHIRE_BLOCK)
                 .add(ModBlocks.ZIRCON_BLOCK)
-                .add(ModBlocks.REFINED_DIAMOND_BLOCK);
+                .add(ModBlocks.REFINED_DIAMOND_BLOCK)
+                .add(ModBlocks.GLITCHITE_ORE)
+                .add(ModBlocks.DEEPSLATE_GLITCHITE_ORE)
+                .add(ModBlocks.END_STONE_GLITCHITE_ORE)
+                .add(ModBlocks.NETHER_GLITCHITE_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.RUBY_BLOCK);
@@ -92,7 +100,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SAPPHIRE_BLOCK)
                 .add(ModBlocks.ZIRCON_BLOCK)
                 .add(ModBlocks.REFINED_DIAMOND_BLOCK)
-                .add(ModBlocks.ANCIENT_VOIDSTONE);
+                .add(ModBlocks.ANCIENT_VOIDSTONE)
+                .add(ModBlocks.GLITCHITE_ORE)
+                .add(ModBlocks.DEEPSLATE_GLITCHITE_ORE)
+                .add(ModBlocks.END_STONE_GLITCHITE_ORE)
+                .add(ModBlocks.NETHER_GLITCHITE_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE)
