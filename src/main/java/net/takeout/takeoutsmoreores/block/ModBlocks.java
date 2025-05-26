@@ -93,6 +93,12 @@ public class ModBlocks {
     public static final Block NETHER_GLITCHITE_ORE = registerBlock("nether_glitchite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
 
+    public static final Block GLITCHITE_BLOCK = registerBlock("glitchite_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
+    public static final Block THIMEITE_BLOCK = registerBlock("thimeite_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
+
     public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
             new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK)));
     public static final Block RUBY_SLAB = registerBlock("ruby_slab",
