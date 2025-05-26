@@ -20,7 +20,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_RUBY_BLOCK);
         BlockStateModelGenerator.BlockTexturePool sapphirePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SAPPHIRE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_SAPPHIRE_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ZIRCON_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool zirconPool = blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ZIRCON_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_RUBY_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_RUBY_ORE);
@@ -37,7 +37,10 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_ZIRCON_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_ZIRCON_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_ZIRCON_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.REFINED_DIAMOND_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool refdimPool = blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.REFINED_DIAMOND_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool glitchitePool = blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLITCHITE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool thimeitePool = blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.THIMEITE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLITCHITE_ORE);
 
         rubyPool.stairs(ModBlocks.RUBY_STAIRS);
         rubyPool.slab(ModBlocks.RUBY_SLAB);
