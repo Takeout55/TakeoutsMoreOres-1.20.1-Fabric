@@ -8,8 +8,9 @@ import java.util.function.Supplier;
 public enum ModToolMaterial implements ToolMaterial {
     SAPPHIRE(5, 2000, 4.5f, 3.4f, 26, () -> Ingredient.ofItems(ModItems.SAPPHIRE)),
     RUBY(5, 2000, 4.5f, 3.4f, 26, () -> Ingredient.ofItems(ModItems.RUBY)),
-    //ZIRCON(5, 2000, 4.5f, 3.4f, 26, () -> Ingredient.ofItems(ModItems.ZIRCON)),
-    REFINED_DIAMOND(5, 2000, 4.5f, 3.4f, 26, () -> Ingredient.ofItems(ModItems.REFINED_DIAMOND));
+    ZIRCON(5, 2000, 4.5f, 3.4f, 26, () -> Ingredient.ofItems(ModItems.ZIRCON)),
+    REFINED_DIAMOND(5, 2000, 4.5f, 3.4f, 26, () -> Ingredient.ofItems(ModItems.REFINED_DIAMOND)),
+    THIMEITE(5, 2000, 4.5f, 3.4f, 26, () -> Ingredient.ofItems(ModItems.THIMEITE));
 
     private final int miningLevel;
     private final int itemDurability;

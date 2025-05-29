@@ -29,6 +29,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RAW_SAPPHIRE_BLOCK);
         addDrop(ModBlocks.SAPPHIRE_BLOCK);
         addDrop(ModBlocks.REFINED_DIAMOND_BLOCK);
+        addDrop(ModBlocks.THIMEITE_BLOCK);
+        addDrop(ModBlocks.CHEESIUM_BLOCK);
+        addDrop(ModBlocks.OCARITE_BLOCK);
+        addDrop(ModBlocks.GLITCHITE_BLOCK);
 
         addDrop(ModBlocks.RUBY_STAIRS);
         addDrop(ModBlocks.RUBY_FENCE);
@@ -69,6 +73,16 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DEEPSLATE_ZIRCON_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_ZIRCON_ORE, ModItems.RAW_ZIRCON));
         addDrop(ModBlocks.NETHER_ZIRCON_ORE, copperLikeOreDrops(ModBlocks.NETHER_ZIRCON_ORE, ModItems.RAW_ZIRCON));
         addDrop(ModBlocks.END_STONE_ZIRCON_ORE, copperLikeOreDrops(ModBlocks.END_STONE_ZIRCON_ORE, ModItems.RAW_ZIRCON));
+
+        addDrop(ModBlocks.GLITCHITE_ORE, copperLikeOreDrops(ModBlocks.GLITCHITE_ORE, ModItems.GLITCHITE));
+        addDrop(ModBlocks.DEEPSLATE_GLITCHITE_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_GLITCHITE_ORE, ModItems.GLITCHITE));
+        addDrop(ModBlocks.NETHER_GLITCHITE_ORE, copperLikeOreDrops(ModBlocks.NETHER_GLITCHITE_ORE, ModItems.GLITCHITE));
+        addDrop(ModBlocks.END_STONE_GLITCHITE_ORE, copperLikeOreDrops(ModBlocks.END_STONE_GLITCHITE_ORE, ModItems.GLITCHITE));
+
+        addDrop(ModBlocks.THIMEITE_ORE, copperLikeOreDrops(ModBlocks.THIMEITE_ORE, ModItems.THIMEITE));
+        addDrop(ModBlocks.DEEPSLATE_THIMEITE_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_THIMEITE_ORE, ModItems.THIMEITE));
+        addDrop(ModBlocks.NETHER_THIMEITE_ORE, copperLikeOreDrops(ModBlocks.NETHER_THIMEITE_ORE, ModItems.THIMEITE));
+        addDrop(ModBlocks.END_STONE_THIMEITE_ORE, copperLikeOreDrops(ModBlocks.END_STONE_THIMEITE_ORE, ModItems.THIMEITE));
     }
 
     public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {

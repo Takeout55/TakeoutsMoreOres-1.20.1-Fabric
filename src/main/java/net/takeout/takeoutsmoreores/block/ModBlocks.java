@@ -99,18 +99,36 @@ public class ModBlocks {
     public static final Block THIMEITE_BLOCK = registerBlock("thimeite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
 
+    public static final Block OCARITE_BLOCK = registerBlock("ocarite_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
+
+    public static final Block CHEESIUM_BLOCK = registerBlock("cheesium_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
+
+    public static final Block THIMEITE_ORE = registerBlock("thimeite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+
+    public static final Block DEEPSLATE_THIMEITE_ORE = registerBlock("deepslate_thimeite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
+
+    public static final Block END_STONE_THIMEITE_ORE = registerBlock("end_stone_thimeite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+
+    public static final Block NETHER_THIMEITE_ORE = registerBlock("nether_thimeite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
+
     public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
             new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK)));
     public static final Block RUBY_SLAB = registerBlock("ruby_slab",
             new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK)));
     public static final Block RUBY_DOOR = registerBlock("ruby_door",
-            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK), BlockSetType.IRON));
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK).nonOpaque(), BlockSetType.IRON));
     public static final Block RUBY_FENCE = registerBlock("ruby_fence",
             new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK)));
     public static final Block RUBY_FENCE_GATE = registerBlock("ruby_fence_gate",
             new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK), WoodType.ACACIA));
     public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK), BlockSetType.IRON));
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK).nonOpaque(), BlockSetType.IRON));
     public static final Block RUBY_BUTTON = registerBlock("ruby_button",
             new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.RUBY_BLOCK), BlockSetType.IRON, 10, true));
     public static final Block RUBY_PRESSURE_PLATE = registerBlock("ruby_pressure_plate",
@@ -123,13 +141,13 @@ public class ModBlocks {
     public static final Block SAPPHIRE_SLAB = registerBlock("sapphire_slab",
             new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.SAPPHIRE_BLOCK)));
     public static final Block SAPPHIRE_DOOR = registerBlock("sapphire_door",
-            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.SAPPHIRE_BLOCK), BlockSetType.IRON));
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.SAPPHIRE_BLOCK).nonOpaque(), BlockSetType.IRON));
     public static final Block SAPPHIRE_FENCE = registerBlock("sapphire_fence",
             new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.SAPPHIRE_BLOCK)));
     public static final Block SAPPHIRE_FENCE_GATE = registerBlock("sapphire_fence_gate",
             new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.SAPPHIRE_BLOCK), WoodType.ACACIA));
     public static final Block SAPPHIRE_TRAPDOOR = registerBlock("sapphire_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.SAPPHIRE_BLOCK), BlockSetType.IRON));
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.SAPPHIRE_BLOCK).nonOpaque(), BlockSetType.IRON));
     public static final Block SAPPHIRE_BUTTON = registerBlock("sapphire_button",
             new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.SAPPHIRE_BLOCK), BlockSetType.IRON, 10, true));
     public static final Block SAPPHIRE_PRESSURE_PLATE = registerBlock("sapphire_pressure_plate",
@@ -137,6 +155,119 @@ public class ModBlocks {
     public static final Block SAPPHIRE_WALL = registerBlock("sapphire_wall",
             new WallBlock(FabricBlockSettings.copyOf(ModBlocks.SAPPHIRE_BLOCK)));
 
+    public static final Block REFINED_DIAMOND_STAIRS = registerBlock("refined_diamond_stairs",
+            new StairsBlock(ModBlocks.REFINED_DIAMOND_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.REFINED_DIAMOND_BLOCK)));
+    public static final Block REFINED_DIAMOND_SLAB = registerBlock("refined_diamond_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.REFINED_DIAMOND_BLOCK)));
+    public static final Block REFINED_DIAMOND_DOOR = registerBlock("refined_diamond_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.REFINED_DIAMOND_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block REFINED_DIAMOND_FENCE = registerBlock("refined_diamond_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.REFINED_DIAMOND_BLOCK)));
+    public static final Block REFINED_DIAMOND_FENCE_GATE = registerBlock("refined_diamond_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.REFINED_DIAMOND_BLOCK), WoodType.ACACIA));
+    public static final Block REFINED_DIAMOND_TRAPDOOR = registerBlock("refined_diamond_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.REFINED_DIAMOND_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block REFINED_DIAMOND_BUTTON = registerBlock("refined_diamond_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.REFINED_DIAMOND_BLOCK), BlockSetType.IRON, 10, true));
+    public static final Block REFINED_DIAMOND_PRESSURE_PLATE = registerBlock("refined_diamond_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(ModBlocks.REFINED_DIAMOND_BLOCK), BlockSetType.IRON));
+    public static final Block REFINED_DIAMOND_WALL = registerBlock("refined_diamond_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.REFINED_DIAMOND_BLOCK)));
+
+    public static final Block GLITCHITE_STAIRS = registerBlock("glitchite_stairs",
+            new StairsBlock(ModBlocks.GLITCHITE_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.GLITCHITE_BLOCK)));
+    public static final Block GLITCHITE_SLAB = registerBlock("glitchite_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.GLITCHITE_BLOCK)));
+    public static final Block GLITCHITE_DOOR = registerBlock("glitchite_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.GLITCHITE_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block GLITCHITE_FENCE = registerBlock("glitchite_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.GLITCHITE_BLOCK)));
+    public static final Block GLITCHITE_FENCE_GATE = registerBlock("glitchite_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.GLITCHITE_BLOCK), WoodType.ACACIA));
+    public static final Block GLITCHITE_TRAPDOOR = registerBlock("glitchite_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.GLITCHITE_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block GLITCHITE_BUTTON = registerBlock("glitchite_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.GLITCHITE_BLOCK), BlockSetType.IRON, 10, true));
+    public static final Block GLITCHITE_PRESSURE_PLATE = registerBlock("glitchite_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(ModBlocks.GLITCHITE_BLOCK), BlockSetType.IRON));
+    public static final Block GLITCHITE_WALL = registerBlock("glitchite_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.GLITCHITE_BLOCK)));
+
+    public static final Block THIMEITE_STAIRS = registerBlock("thimeite_stairs",
+            new StairsBlock(ModBlocks.THIMEITE_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.THIMEITE_BLOCK)));
+    public static final Block THIMEITE_SLAB = registerBlock("thimeite_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.THIMEITE_BLOCK)));
+    public static final Block THIMEITE_DOOR = registerBlock("thimeite_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.THIMEITE_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block THIMEITE_FENCE = registerBlock("thimeite_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.THIMEITE_BLOCK)));
+    public static final Block THIMEITE_FENCE_GATE = registerBlock("thimeite_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.THIMEITE_BLOCK), WoodType.ACACIA));
+    public static final Block THIMEITE_TRAPDOOR = registerBlock("thimeite_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.THIMEITE_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block THIMEITE_BUTTON = registerBlock("thimeite_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.THIMEITE_BLOCK), BlockSetType.IRON, 10, true));
+    public static final Block THIMEITE_PRESSURE_PLATE = registerBlock("thimeite_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(ModBlocks.THIMEITE_BLOCK), BlockSetType.IRON));
+    public static final Block THIMEITE_WALL = registerBlock("thimeite_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.THIMEITE_BLOCK)));
+
+    public static final Block ZIRCON_STAIRS = registerBlock("zircon_stairs",
+            new StairsBlock(ModBlocks.ZIRCON_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.ZIRCON_BLOCK)));
+    public static final Block ZIRCON_SLAB = registerBlock("zircon_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.ZIRCON_BLOCK)));
+    public static final Block ZIRCON_DOOR = registerBlock("zircon_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.ZIRCON_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block ZIRCON_FENCE = registerBlock("zircon_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.ZIRCON_BLOCK)));
+    public static final Block ZIRCON_FENCE_GATE = registerBlock("zircon_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.ZIRCON_BLOCK), WoodType.ACACIA));
+    public static final Block ZIRCON_TRAPDOOR = registerBlock("zircon_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.ZIRCON_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block ZIRCON_BUTTON = registerBlock("zircon_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.ZIRCON_BLOCK), BlockSetType.IRON, 10, true));
+    public static final Block ZIRCON_PRESSURE_PLATE = registerBlock("zircon_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(ModBlocks.ZIRCON_BLOCK), BlockSetType.IRON));
+    public static final Block ZIRCON_WALL = registerBlock("zircon_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.ZIRCON_BLOCK)));
+
+    public static final Block OCARITE_STAIRS = registerBlock("ocarite_stairs",
+            new StairsBlock(ModBlocks.OCARITE_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.OCARITE_BLOCK)));
+    public static final Block OCARITE_SLAB = registerBlock("ocarite_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.OCARITE_BLOCK)));
+    public static final Block OCARITE_DOOR = registerBlock("ocarite_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.OCARITE_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block OCARITE_FENCE = registerBlock("ocarite_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.OCARITE_BLOCK)));
+    public static final Block OCARITE_FENCE_GATE = registerBlock("ocarite_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.OCARITE_BLOCK), WoodType.ACACIA));
+    public static final Block OCARITE_TRAPDOOR = registerBlock("ocarite_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.OCARITE_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block OCARITE_BUTTON = registerBlock("ocarite_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.OCARITE_BLOCK), BlockSetType.IRON, 10, true));
+    public static final Block OCARITE_PRESSURE_PLATE = registerBlock("ocarite_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(ModBlocks.CHEESIUM_BLOCK), BlockSetType.IRON));
+    public static final Block OCARITE_WALL = registerBlock("ocarite_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.OCARITE_BLOCK)));
+
+    public static final Block CHEESIUM_STAIRS = registerBlock("cheesium_stairs",
+            new StairsBlock(ModBlocks.CHEESIUM_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.CHEESIUM_BLOCK)));
+    public static final Block CHEESIUM_SLAB = registerBlock("cheesium_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.CHEESIUM_BLOCK)));
+    public static final Block CHEESIUM_DOOR = registerBlock("cheesium_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.CHEESIUM_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block CHEESIUM_FENCE = registerBlock("cheesium_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.CHEESIUM_BLOCK)));
+    public static final Block CHEESIUM_FENCE_GATE = registerBlock("cheesium_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.CHEESIUM_BLOCK), WoodType.ACACIA));
+    public static final Block CHEESIUM_TRAPDOOR = registerBlock("cheesium_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.CHEESIUM_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block CHEESIUM_BUTTON = registerBlock("cheesium_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.CHEESIUM_BLOCK), BlockSetType.IRON, 10, true));
+    public static final Block CHEESIUM_PRESSURE_PLATE = registerBlock("cheesium_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(ModBlocks.CHEESIUM_BLOCK), BlockSetType.IRON));
+    public static final Block CHEESIUM_WALL = registerBlock("cheesium_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.CHEESIUM_BLOCK)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

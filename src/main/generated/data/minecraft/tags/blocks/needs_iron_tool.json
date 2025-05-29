@@ -23,6 +23,12 @@
     "takeoutsmoreores:glitchite_ore",
     "takeoutsmoreores:deepslate_glitchite_ore",
     "takeoutsmoreores:end_stone_glitchite_ore",
-    "takeoutsmoreores:nether_glitchite_block"
+    "takeoutsmoreores:nether_glitchite_ore",
+    "takeoutsmoreores:cheesium_block",
+    "takeoutsmoreores:ocarite_block",
+    "takeoutsmoreores:thimeite_ore",
+    "takeoutsmoreores:deepslate_thimeite_ore",
+    "takeoutsmoreores:end_stone_thimeite_ore",
+    "takeoutsmoreores:nether_thimeite_ore"
   ]
 }

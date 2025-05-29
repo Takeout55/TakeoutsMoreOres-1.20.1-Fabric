@@ -17,10 +17,15 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         BlockStateModelGenerator.BlockTexturePool rubyPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RUBY_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_RUBY_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool refdimPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.REFINED_DIAMOND_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool glitchitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GLITCHITE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool thimeitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.THIMEITE_BLOCK);
         BlockStateModelGenerator.BlockTexturePool sapphirePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SAPPHIRE_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_SAPPHIRE_BLOCK);
         BlockStateModelGenerator.BlockTexturePool zirconPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ZIRCON_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool ocaritePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.OCARITE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool cheesiumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHEESIUM_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_RUBY_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_SAPPHIRE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_RUBY_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_RUBY_ORE);
@@ -37,13 +42,14 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_ZIRCON_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_ZIRCON_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_ZIRCON_ORE);
-        BlockStateModelGenerator.BlockTexturePool refdimPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.REFINED_DIAMOND_BLOCK);
-        BlockStateModelGenerator.BlockTexturePool glitchitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GLITCHITE_BLOCK);
-        BlockStateModelGenerator.BlockTexturePool thimeitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.THIMEITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLITCHITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_GLITCHITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_GLITCHITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_GLITCHITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.THIMEITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_THIMEITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_THIMEITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_THIMEITE_ORE);
 
         rubyPool.stairs(ModBlocks.RUBY_STAIRS);
         rubyPool.slab(ModBlocks.RUBY_SLAB);
@@ -64,6 +70,66 @@ public class ModModelProvider extends FabricModelProvider {
         sapphirePool.wall(ModBlocks.SAPPHIRE_WALL);
         blockStateModelGenerator.registerDoor(ModBlocks.SAPPHIRE_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.SAPPHIRE_TRAPDOOR);
+
+        refdimPool.stairs(ModBlocks.REFINED_DIAMOND_STAIRS);
+        refdimPool.slab(ModBlocks.REFINED_DIAMOND_SLAB);
+        refdimPool.button(ModBlocks.REFINED_DIAMOND_BUTTON);
+        refdimPool.pressurePlate(ModBlocks.REFINED_DIAMOND_PRESSURE_PLATE);
+        refdimPool.fence(ModBlocks.REFINED_DIAMOND_FENCE);
+        refdimPool.fenceGate(ModBlocks.REFINED_DIAMOND_FENCE_GATE);
+        refdimPool.wall(ModBlocks.REFINED_DIAMOND_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.REFINED_DIAMOND_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.REFINED_DIAMOND_TRAPDOOR);
+
+        glitchitePool.stairs(ModBlocks.GLITCHITE_STAIRS);
+        glitchitePool.slab(ModBlocks.GLITCHITE_SLAB);
+        glitchitePool.button(ModBlocks.GLITCHITE_BUTTON);
+        glitchitePool.pressurePlate(ModBlocks.GLITCHITE_PRESSURE_PLATE);
+        glitchitePool.fence(ModBlocks.GLITCHITE_FENCE);
+        glitchitePool.fenceGate(ModBlocks.GLITCHITE_FENCE_GATE);
+        glitchitePool.wall(ModBlocks.GLITCHITE_WALL);
+        //blockStateModelGenerator.registerDoor(ModBlocks.GLITCHITE_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.GLITCHITE_TRAPDOOR);
+
+        thimeitePool.stairs(ModBlocks.THIMEITE_STAIRS);
+        thimeitePool.slab(ModBlocks.THIMEITE_SLAB);
+        thimeitePool.button(ModBlocks.THIMEITE_BUTTON);
+        thimeitePool.pressurePlate(ModBlocks.THIMEITE_PRESSURE_PLATE);
+        thimeitePool.fence(ModBlocks.THIMEITE_FENCE);
+        thimeitePool.fenceGate(ModBlocks.THIMEITE_FENCE_GATE);
+        thimeitePool.wall(ModBlocks.THIMEITE_WALL);
+        //blockStateModelGenerator.registerDoor(ModBlocks.THIMEITE_DOOR);
+        //blockStateModelGenerator.registerTrapdoor(ModBlocks.THIMEITE_TRAPDOOR);
+
+        zirconPool.stairs(ModBlocks.ZIRCON_STAIRS);
+        zirconPool.slab(ModBlocks.ZIRCON_SLAB);
+        zirconPool.button(ModBlocks.ZIRCON_BUTTON);
+        zirconPool.pressurePlate(ModBlocks.ZIRCON_PRESSURE_PLATE);
+        zirconPool.fence(ModBlocks.ZIRCON_FENCE);
+        zirconPool.fenceGate(ModBlocks.ZIRCON_FENCE_GATE);
+        zirconPool.wall(ModBlocks.ZIRCON_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.ZIRCON_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.ZIRCON_TRAPDOOR);
+
+        ocaritePool.stairs(ModBlocks.OCARITE_STAIRS);
+        ocaritePool.slab(ModBlocks.OCARITE_SLAB);
+        ocaritePool.button(ModBlocks.OCARITE_BUTTON);
+        ocaritePool.pressurePlate(ModBlocks.OCARITE_PRESSURE_PLATE);
+        ocaritePool.fence(ModBlocks.OCARITE_FENCE);
+        ocaritePool.fenceGate(ModBlocks.OCARITE_FENCE_GATE);
+        ocaritePool.wall(ModBlocks.OCARITE_WALL);
+        //blockStateModelGenerator.registerDoor(ModBlocks.OCARITE_DOOR);
+        //blockStateModelGenerator.registerTrapdoor(ModBlocks.OCARITE_TRAPDOOR);
+
+        cheesiumPool.stairs(ModBlocks.CHEESIUM_STAIRS);
+        cheesiumPool.slab(ModBlocks.CHEESIUM_SLAB);
+        cheesiumPool.button(ModBlocks.CHEESIUM_BUTTON);
+        cheesiumPool.pressurePlate(ModBlocks.CHEESIUM_PRESSURE_PLATE);
+        cheesiumPool.fence(ModBlocks.CHEESIUM_FENCE);
+        cheesiumPool.fenceGate(ModBlocks.CHEESIUM_FENCE_GATE);
+        cheesiumPool.wall(ModBlocks.CHEESIUM_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.CHEESIUM_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.CHEESIUM_TRAPDOOR);
 
     }
 

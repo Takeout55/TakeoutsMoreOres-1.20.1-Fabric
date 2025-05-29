@@ -67,6 +67,9 @@ public class ModItems {
     public static final Item REFINED_DIAMOND_HOE = registerItem("refined_diamond_hoe", new HoeItem(ModToolMaterial.REFINED_DIAMOND, 2, 2f,
             new FabricItemSettings()));
 
+    public static final Item THIMEITE_SCYTHE = registerItem("thimeite_scythe", new SwordItem(ModToolMaterial.THIMEITE, 2, 2f,
+            new FabricItemSettings()));
+
     public static final Item RUBY_HELMET = registerItem("ruby_helmet", new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET,
             new FabricItemSettings()));
     public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate", new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE,
