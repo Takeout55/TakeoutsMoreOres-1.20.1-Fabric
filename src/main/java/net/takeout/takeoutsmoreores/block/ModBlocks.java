@@ -84,7 +84,7 @@ public class ModBlocks {
     public static final Block GLITCHITE_ORE = registerBlock("glitchite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
 
-    public static final Block DEEPSLATE_DEEPSLATE_ORE = registerBlock("deepslate_glitchite_ore",
+    public static final Block DEEPSLATE_GLITCHITE_ORE = registerBlock("deepslate_glitchite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
 
     public static final Block END_STONE_GLITCHITE_ORE = registerBlock("end_stone_glitchite_ore",

@@ -22,6 +22,10 @@
     "takeoutsmoreores:end_stone_zircon_ore",
     "takeoutsmoreores:sapphire_block",
     "takeoutsmoreores:zircon_block",
-    "takeoutsmoreores:refined_diamond_block"
+    "takeoutsmoreores:refined_diamond_block",
+    "takeoutsmoreores:glitchite_ore",
+    "takeoutsmoreores:deepslate_glitchite_ore",
+    "takeoutsmoreores:end_stone_glitchite_ore",
+    "takeoutsmoreores:nether_glitchite_block"
   ]
 }

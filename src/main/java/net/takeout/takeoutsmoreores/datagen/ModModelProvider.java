@@ -20,7 +20,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_RUBY_BLOCK);
         BlockStateModelGenerator.BlockTexturePool sapphirePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SAPPHIRE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_SAPPHIRE_BLOCK);
-        BlockStateModelGenerator.BlockTexturePool zirconPool = blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ZIRCON_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool zirconPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ZIRCON_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_RUBY_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_RUBY_ORE);
@@ -37,9 +37,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_ZIRCON_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_ZIRCON_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_ZIRCON_ORE);
-        BlockStateModelGenerator.BlockTexturePool refdimPool = blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.REFINED_DIAMOND_BLOCK);
-        BlockStateModelGenerator.BlockTexturePool glitchitePool = blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLITCHITE_BLOCK);
-        BlockStateModelGenerator.BlockTexturePool thimeitePool = blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.THIMEITE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool refdimPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.REFINED_DIAMOND_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool glitchitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GLITCHITE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool thimeitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.THIMEITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLITCHITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_GLITCHITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_GLITCHITE_ORE);
@@ -81,7 +81,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.REFINED_DIAMOND_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.EARIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_EARIUM, Models.GENERATED);
-        itemModelGenerator.regidter(ModItems.GLITCHITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GLITCHITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CHEESIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_CHEESIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.THIMEITE, Models.GENERATED);
@@ -111,7 +111,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_BOOTS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_HELMET));
         itemModelGenerator.registerArmor((ArmorItem) ModItems.SAPPHIRE_CHESTPLATE);
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_LEGGINS));
+        // itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_BOOTS));
     }
 }

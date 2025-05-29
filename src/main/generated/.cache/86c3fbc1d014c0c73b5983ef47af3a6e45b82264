@@ -1,11 +1,11 @@
-// 1.20.1	2025-05-25T12:55:47.8935495	Takeout's More Ores/Tags for minecraft:block
+// 1.20.1	2025-05-29T09:01:10.4571915	Takeout's More Ores/Tags for minecraft:block
 a9537ea427a49e2437d04a0118552a6563e69530 data\minecraft\tags\blocks\needs_stone_tool.json
 d902c872a8d08de14a5917fd0c549e9e10089ffd data\fabric\tags\blocks\needs_tool_level_4.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_5.json
-f5bf33da97532265ebbed00966ccca2eda2a2c31 data\minecraft\tags\blocks\needs_iron_tool.json
+e6353ff8d4079115581ca3e68ef9ea198a0a7db9 data\minecraft\tags\blocks\needs_iron_tool.json
 3d7e0018777a351220530050c9072389c2f41e15 data\minecraft\tags\blocks\needs_diamond_tool.json
 38f867540c33bbcbe3988c8b317dab626209a220 data\minecraft\tags\blocks\fence_gates.json
-f4994967f53125c351ae5647e2e4677a7166362a data\takeoutsmoreores\tags\blocks\metal_detector_detectable_blocks.json
-378771b9620c6982d6191d2decde619a7db5af9d data\minecraft\tags\blocks\mineable\pickaxe.json
+4fb00ec219e0f95f37ffe1008a077f449537656c data\takeoutsmoreores\tags\blocks\metal_detector_detectable_blocks.json
+d19e09cac76d7ddbf1fe9e6884be62e8d0cd2bef data\minecraft\tags\blocks\mineable\pickaxe.json
 1df8010960ea9c410a54b63b49d517160a8de9b9 data\minecraft\tags\blocks\walls.json
 7fab6cf70f93538b00c8eac0798bb4da93f3d73e data\minecraft\tags\blocks\fences.json

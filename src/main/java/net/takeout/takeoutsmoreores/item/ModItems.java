@@ -76,13 +76,13 @@ public class ModItems {
     public static final Item RUBY_BOOTS = registerItem("ruby_boots", new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS,
             new FabricItemSettings()));
 
-    public static final Item SAPHIRE_HELMET = registerItem("sapphire_helmet", new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET,
+    public static final Item SAPPHIRE_HELMET = registerItem("sapphire_helmet", new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET,
             new FabricItemSettings()));
     public static final Item SAPPHIRE_CHESTPLATE = registerItem("sapphire_chestplate", new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE,
             new FabricItemSettings()));
-    public static final Item SAPPHIRE_LEGGINGS = registerItem("sapphire_leggings", new ArmorItem(ModArmorMaterial.SAPPHIRE, ArmorItem.Type.LEGGINGS,
+    public static final Item SAPPHIRE_LEGGINGS = registerItem("sapphire_leggings", new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS,
             new FabricItemSettings()));
-    public static final Item SAPPHIRE_BOOTS = registerItem("sapphire_leggings", new ArmorItem(ModArmorMaterial.SAPPHIRE, ArmorItem.Type.BOOTS,
+    public static final Item SAPPHIRE_BOOTS = registerItem("sapphire_leggings", new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS,
             new FabricItemSettings()));
 
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem
