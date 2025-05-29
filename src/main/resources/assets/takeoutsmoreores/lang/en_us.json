@@ -149,5 +149,14 @@
   "block.takeoutsmoreores.cheesium_pressure_plate": "Cheesium Pressure Plate",
   "block.takeoutsmoreores.cheesium_slab": "Cheesium Slab",
   "block.takeoutsmoreores.ocarite_block": "Ocarite Block",
-  "block.takeoutsmoreores.cheesium_block": "Cheesium Block"
+  "block.takeoutsmoreores.cheesium_block": "Cheesium Block",
+  "block.takeoutsmoreores.thimeite_ore": "Thimeite Ore",
+  "block.takeoutsmoreores.deepslate_thimeite_ore": "Deepslate Thimeite Ore",
+  "block.takeoutsmoreores.nether_thimeite_ore": "Nether Thimeite Ore",
+  "block.takeoutsmoreores.end_stone_thimeite_ore": "End Stone Thimeite Ore",
+  "block.takeoutsmoreores.earium_ore": "Earium Ore",
+  "item.takeoutsmoreores.endite_ingot": "Endite Ingot",
+  "item.takeoutsmoreores.raw_endite": "Raw Endite",
+  "item.takeoutsmoreores.raw_pinkite": "Raw Pinkite",
+  "item.takeoutsmoreores.pinkite_ingot": "Pinkite ingot"
 }

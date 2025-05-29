@@ -105,6 +105,9 @@ public class ModBlocks {
     public static final Block CHEESIUM_BLOCK = registerBlock("cheesium_block",
             new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
 
+    public static final Block EARIUM_BLOCK = registerBlock("earium_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
     public static final Block THIMEITE_ORE = registerBlock("thimeite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
 

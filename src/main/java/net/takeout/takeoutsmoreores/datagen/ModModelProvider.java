@@ -24,6 +24,7 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool zirconPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ZIRCON_BLOCK);
         BlockStateModelGenerator.BlockTexturePool ocaritePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.OCARITE_BLOCK);
         BlockStateModelGenerator.BlockTexturePool cheesiumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHEESIUM_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool eariumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.EARIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_RUBY_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_SAPPHIRE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_ORE);
@@ -152,6 +153,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_CHEESIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.THIMEITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.OCARITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_PINKITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_ENDITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PINKITE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ENDITE_INGOT, Models.GENERATED);
 
         
         itemModelGenerator.register(ModItems.RUBY_AXE, Models.HANDHELD);
