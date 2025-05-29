@@ -90,7 +90,7 @@ public class ModBlocks {
     public static final Block END_STONE_GLITCHITE_ORE = registerBlock("end_stone_glitchite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
 
-    public static final Block NETHER_GLITCHITE_ORE = registerBlock("nether_glitchite_block",
+    public static final Block NETHER_GLITCHITE_ORE = registerBlock("nether_glitchite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
 
     public static final Block GLITCHITE_BLOCK = registerBlock("glitchite_block",

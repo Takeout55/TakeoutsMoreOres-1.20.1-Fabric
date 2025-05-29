@@ -111,7 +111,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_BOOTS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_HELMET));
         itemModelGenerator.registerArmor((ArmorItem) ModItems.SAPPHIRE_CHESTPLATE);
-        // itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_BOOTS));
     }
 }

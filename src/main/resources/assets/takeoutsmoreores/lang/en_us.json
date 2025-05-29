@@ -83,7 +83,12 @@
   "block.takeoutsmoreores.glitchite_block": "Glitchite Block",
   "block.takeoutsmoreores.thimeite_block": "Thimeite Block",
   "block.takeoutsmoreores.glitchite_ore": "Glitchite Ore",
-  "block.takeoutsmoreores.deepslate_glitchite_ore": "Deepslate Glitchite Ore"
-  "block.takeoutsmoreores.end_stone_glitchite_ore": "End Stone Glitchite Ore"
-  "block.takeoutsmoreores.nether_glitchite_ore": "Nether Glitchite Ore"
+  "block.takeoutsmoreores.deepslate_glitchite_ore": "Deepslate Glitchite Ore",
+  "block.takeoutsmoreores.end_stone_glitchite_ore": "End Stone Glitchite Ore",
+  "block.takeoutsmoreores.nether_glitchite_ore": "Nether Glitchite Ore",
+  "item.takeoutsmoreores.ocarite": "Ocarite",
+  "item.takeoutsmoreores.sapphire_helmet": "Sapphire Helmet",
+  "item.takeoutsmoreores.sapphire_leggings": "Sapphire Leggings",
+  "item.takeoutsmoreores.sapphire_boots": "Sapphire Boots",
+  "item.takeoutsmoreores.sapphire_chestplate": "Sapphire Chestplate"
 }
