@@ -132,6 +132,16 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.CHEESIUM_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.CHEESIUM_TRAPDOOR);
 
+        eariumPool.stairs(ModBlocks.EARIUM_STAIRS);
+        eariumPool.slab(ModBlocks.EARIUM_SLAB);
+        eariumPool.button(ModBlocks.EARIUM_BUTTON);
+        eariumPool.pressurePlate(ModBlocks.EARIUM_PRESSURE_PLATE);
+        eariumPool.fence(ModBlocks.EARIUM_FENCE);
+        eariumPool.fenceGate(ModBlocks.EARIUM_FENCE_GATE);
+        eariumPool.wall(ModBlocks.EARIUM_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.EARIUM_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.EARIUM_TRAPDOOR);
+
     }
 
     @Override
@@ -157,6 +167,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_ENDITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.PINKITE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.ENDITE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.VINYL_TEMPLATE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.BAR_BRAWL_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.THIMEITE_MUSIC_DISC, Models.GENERATED);
 
         
         itemModelGenerator.register(ModItems.RUBY_AXE, Models.HANDHELD);

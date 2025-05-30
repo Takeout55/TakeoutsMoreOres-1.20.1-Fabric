@@ -37,6 +37,9 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_EARIUM);
                         entries.add(ModItems.RAW_PINKITE);
                         entries.add(ModItems.RAW_ENDITE);
+                        entries.add(ModItems.VINYL_TEMPLATE);
+                        entries.add(ModItems.THIMEITE_MUSIC_DISC);
+                        entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.RUBY_STAFF);
                         entries.add(ModItems.SAPPHIRE_STAFF);
@@ -194,6 +197,15 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHEESIUM_BUTTON);
                         entries.add(ModBlocks.CHEESIUM_PRESSURE_PLATE);
                         entries.add(ModBlocks.CHEESIUM_SLAB);
+                        entries.add(ModBlocks.EARIUM_STAIRS);
+                        entries.add(ModBlocks.EARIUM_FENCE);
+                        entries.add(ModBlocks.EARIUM_FENCE_GATE);
+                        entries.add(ModBlocks.EARIUM_WALL);
+                        entries.add(ModBlocks.EARIUM_DOOR);
+                        entries.add(ModBlocks.EARIUM_TRAPDOOR);
+                        entries.add(ModBlocks.EARIUM_BUTTON);
+                        entries.add(ModBlocks.EARIUM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.EARIUM_SLAB);
                     }).build());
 
 

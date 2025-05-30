@@ -272,6 +272,25 @@ public class ModBlocks {
     public static final Block CHEESIUM_WALL = registerBlock("cheesium_wall",
             new WallBlock(FabricBlockSettings.copyOf(ModBlocks.CHEESIUM_BLOCK)));
 
+    public static final Block EARIUM_STAIRS = registerBlock("earium_stairs",
+            new StairsBlock(ModBlocks.EARIUM_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.EARIUM_BLOCK)));
+    public static final Block EARIUM_SLAB = registerBlock("earium_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.EARIUM_BLOCK)));
+    public static final Block EARIUM_DOOR = registerBlock("earium_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.EARIUM_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block EARIUM_FENCE = registerBlock("earium_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.EARIUM_BLOCK)));
+    public static final Block EARIUM_FENCE_GATE = registerBlock("earium_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.EARIUM_BLOCK), WoodType.ACACIA));
+    public static final Block EARIUM_TRAPDOOR = registerBlock("earium_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.EARIUM_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block EARIUM_BUTTON = registerBlock("earium_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.EARIUM_BLOCK), BlockSetType.IRON, 10, true));
+    public static final Block EARIUM_PRESSURE_PLATE = registerBlock("earium_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(ModBlocks.EARIUM_BLOCK), BlockSetType.IRON));
+    public static final Block EARIUM_WALL = registerBlock("earium_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.EARIUM_BLOCK)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(TakeoutsMoreOres.MOD_ID, name), block);

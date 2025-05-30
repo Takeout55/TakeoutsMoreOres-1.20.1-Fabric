@@ -86,7 +86,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.THIMEITE_ORE)
                 .add(ModBlocks.DEEPSLATE_THIMEITE_ORE)
                 .add(ModBlocks.END_STONE_THIMEITE_ORE)
-                .add(ModBlocks.NETHER_THIMEITE_ORE);
+                .add(ModBlocks.NETHER_THIMEITE_ORE)
+                .add(ModBlocks.EARIUM_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.RUBY_BLOCK);
@@ -120,7 +121,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.THIMEITE_ORE)
                 .add(ModBlocks.DEEPSLATE_THIMEITE_ORE)
                 .add(ModBlocks.END_STONE_THIMEITE_ORE)
-                .add(ModBlocks.NETHER_THIMEITE_ORE);
+                .add(ModBlocks.NETHER_THIMEITE_ORE)
+                .add(ModBlocks.EARIUM_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE)
@@ -140,7 +142,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.THIMEITE_FENCE)
                 .add(ModBlocks.ZIRCON_FENCE)
                 .add(ModBlocks.OCARITE_FENCE)
-                .add(ModBlocks.CHEESIUM_FENCE);
+                .add(ModBlocks.CHEESIUM_FENCE)
+                .add(ModBlocks.EARIUM_FENCE);
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.RUBY_FENCE_GATE)
@@ -150,7 +153,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.THIMEITE_FENCE_GATE)
                 .add(ModBlocks.ZIRCON_FENCE_GATE)
                 .add(ModBlocks.OCARITE_FENCE_GATE)
-                .add(ModBlocks.CHEESIUM_FENCE_GATE);
+                .add(ModBlocks.CHEESIUM_FENCE_GATE)
+                .add(ModBlocks.EARIUM_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.RUBY_WALL)
@@ -160,6 +164,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.THIMEITE_WALL)
                 .add(ModBlocks.ZIRCON_WALL)
                 .add(ModBlocks.OCARITE_WALL)
-                .add(ModBlocks.CHEESIUM_WALL);
+                .add(ModBlocks.CHEESIUM_WALL)
+                .add(ModBlocks.EARIUM_WALL);
     }
 }

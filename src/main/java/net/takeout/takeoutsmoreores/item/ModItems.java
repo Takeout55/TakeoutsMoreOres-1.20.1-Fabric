@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.takeout.takeoutsmoreores.TakeoutsMoreOres;
 import net.takeout.takeoutsmoreores.item.custom.MetalDetectorItem;
+import net.takeout.takeoutsmoreores.sound.ModSounds;
 
 public class ModItems {
 
@@ -34,6 +35,7 @@ public class ModItems {
     public static final Item RAW_PINKITE = registerItem("raw_pinkite", new Item(new FabricItemSettings()));
     public static final Item ENDITE_INGOT = registerItem("endite_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_ENDITE = registerItem("raw_endite", new Item(new FabricItemSettings()));
+    public static final Item VINYL_TEMPLATE = registerItem("vinyl_template", new Item(new FabricItemSettings()));
 
     public static final Item RUBY_STAFF = registerItem("ruby_staff", new Item(new FabricItemSettings().maxCount(1)));
     public static final Item SAPPHIRE_STAFF = registerItem("sapphire_staff", new Item(new FabricItemSettings().maxCount(1)));
@@ -127,6 +129,11 @@ public class ModItems {
             new FabricItemSettings()));
     public static final Item GLITCHITE_BOOTS = registerItem("glitchite_boots", new ArmorItem(ModArmorMaterials.GLITCHITE, ArmorItem.Type.BOOTS,
             new FabricItemSettings()));
+
+    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
+            new MusicDiscItem(7, ModSounds.BAR_BRAWL, new FabricItemSettings().maxCount(1), 122));
+    public static final Item THIMEITE_MUSIC_DISC = registerItem("thimeite_music_disc",
+            new MusicDiscItem(7, ModSounds.GOLDEN_ODYSSEY, new FabricItemSettings().maxCount(1), 287));
 
 
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem

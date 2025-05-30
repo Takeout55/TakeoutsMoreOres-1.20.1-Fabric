@@ -45,5 +45,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                         ModItems.GLITCHITE_LEGGINGS,
                         ModItems.GLITCHITE_BOOTS
                      );
+
+        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
+            .add(ModItems.BAR_BRAWL_MUSIC_DISC,
+                ModItems.THIMEITE_MUSIC_DISC);
     }
 }

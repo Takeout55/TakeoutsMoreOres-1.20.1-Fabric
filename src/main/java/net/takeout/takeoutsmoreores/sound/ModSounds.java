@@ -9,6 +9,8 @@ import net.takeout.takeoutsmoreores.TakeoutsMoreOres;
 public class ModSounds {
     public static final SoundEvent METAL_DETECTOR_FOUND_ORE = registerSoundEvent("metal_detector_found_ore");
 
+    public static final SoundEvent GOLDEN_ODYSSEY = registerSoundEvent("golden_odyssey");
+    public static final SoundEvent BAR_BRAWL = registerSoundEvent("bar_brawl");
 
 
 
