@@ -87,7 +87,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_THIMEITE_ORE)
                 .add(ModBlocks.END_STONE_THIMEITE_ORE)
                 .add(ModBlocks.NETHER_THIMEITE_ORE)
-                .add(ModBlocks.EARIUM_BLOCK);
+                .add(ModBlocks.EARIUM_BLOCK)
+                .add(ModBlocks.OCARITE_ORE)
+                .add(ModBlocks.DEEPSLATE_OCARITE_ORE)
+                .add(ModBlocks.END_STONE_OCARITE_ORE)
+                .add(ModBlocks.NETHER_OCARITE_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.RUBY_BLOCK);
@@ -122,7 +126,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_THIMEITE_ORE)
                 .add(ModBlocks.END_STONE_THIMEITE_ORE)
                 .add(ModBlocks.NETHER_THIMEITE_ORE)
-                .add(ModBlocks.EARIUM_BLOCK);
+                .add(ModBlocks.EARIUM_BLOCK)
+                .add(ModBlocks.OCARITE_ORE)
+                .add(ModBlocks.DEEPSLATE_OCARITE_ORE)
+                .add(ModBlocks.END_STONE_OCARITE_ORE)
+                .add(ModBlocks.NETHER_OCARITE_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE)

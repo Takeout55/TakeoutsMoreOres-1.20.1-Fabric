@@ -190,5 +190,9 @@
   "item.takeoutsmoreores.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
   "item.takeoutsmoreores.thimeite_music_disc": "Thimeite Music disc",
   "item.takeoutsmoreores.thimeite_music_disc.desc": "Golden Odyssey - Ifan Davies, Toby Carter",
-  "item.takeoutsmoreores.vinyl_template": "Vinyl Template"
+  "item.takeoutsmoreores.vinyl_template": "Vinyl Template",
+  "block.takeoutsmoreores.ocarite_ore": "Ocarite Ore",
+  "block.takeoutsmoreores.deepslate_ocarite_ore": "Deepslate Ocarite Ore",
+  "block.takeoutsmoreores.nether_ocarite_ore": "Nether Ocarite Ore",
+  "block.takeoutsmoreores.end_stone_ocarite_ore": "End Stone Ocarite Ore"
 }

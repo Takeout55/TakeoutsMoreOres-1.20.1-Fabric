@@ -83,6 +83,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DEEPSLATE_THIMEITE_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_THIMEITE_ORE, ModItems.THIMEITE));
         addDrop(ModBlocks.NETHER_THIMEITE_ORE, copperLikeOreDrops(ModBlocks.NETHER_THIMEITE_ORE, ModItems.THIMEITE));
         addDrop(ModBlocks.END_STONE_THIMEITE_ORE, copperLikeOreDrops(ModBlocks.END_STONE_THIMEITE_ORE, ModItems.THIMEITE));
+
+        addDrop(ModBlocks.OCARITE_ORE, copperLikeOreDrops(ModBlocks.OCARITE_ORE, ModItems.OCARITE));
+        addDrop(ModBlocks.DEEPSLATE_OCARITE_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_OCARITE_ORE, ModItems.OCARITE));
+        addDrop(ModBlocks.NETHER_OCARITE_ORE, copperLikeOreDrops(ModBlocks.NETHER_OCARITE_ORE, ModItems.OCARITE));
+        addDrop(ModBlocks.END_STONE_OCARITE_ORE, copperLikeOreDrops(ModBlocks.END_STONE_OCARITE_ORE, ModItems.OCARITE));
     }
 
     public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {

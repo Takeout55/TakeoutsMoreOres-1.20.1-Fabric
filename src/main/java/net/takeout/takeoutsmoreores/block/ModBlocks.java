@@ -1,5 +1,6 @@
 package net.takeout.takeoutsmoreores.block;
 
+import net.fabricmc.fabric.api.block.v1.FabricBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -118,6 +119,18 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
 
     public static final Block NETHER_THIMEITE_ORE = registerBlock("nether_thimeite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
+
+    public static final Block OCARITE_ORE = registerBlock("ocarite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+
+    public static final Block DEEPSLATE_OCARITE_ORE = registerBlock("deepslate_ocarite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
+
+    public static final Block END_STONE_OCARITE_ORE = registerBlock("end_stone_ocarite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+
+    public static final Block NETHER_OCARITE_ORE = registerBlock("nether_ocarite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
 
     public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
