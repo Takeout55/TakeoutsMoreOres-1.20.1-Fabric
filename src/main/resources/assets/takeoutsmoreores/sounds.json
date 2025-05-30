@@ -1,0 +1,8 @@
+{
+  "metal_detector_found_ore": {
+    "subtitle": "sounds.takeoutsmoreores.metal_detector_found_ore",
+    "sounds": [
+      "takeoutsmoreores:metal_detector_found_ore"
+    ]
+  }
+}

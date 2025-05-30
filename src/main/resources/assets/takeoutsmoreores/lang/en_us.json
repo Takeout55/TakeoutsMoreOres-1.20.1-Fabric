@@ -158,5 +158,6 @@
   "item.takeoutsmoreores.endite_ingot": "Endite Ingot",
   "item.takeoutsmoreores.raw_endite": "Raw Endite",
   "item.takeoutsmoreores.raw_pinkite": "Raw Pinkite",
-  "item.takeoutsmoreores.pinkite_ingot": "Pinkite ingot"
+  "item.takeoutsmoreores.pinkite_ingot": "Pinkite ingot",
+  "sounds.takeoutsmoreores.metal_detector_found_ore": "Found ore!"
 }
