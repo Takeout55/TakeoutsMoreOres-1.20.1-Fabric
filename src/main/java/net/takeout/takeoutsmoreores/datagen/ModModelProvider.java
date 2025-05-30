@@ -176,13 +176,29 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.REFINED_DIAMOND_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.REFINED_DIAMOND_HOE, Models.HANDHELD);
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_HELMET));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_CHESTPLATE));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_LEGGINGS));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_BOOTS));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_HELMET));
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_BOOTS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.SAPPHIRE_HELMET);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.SAPPHIRE_CHESTPLATE);
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_LEGGINGS));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_BOOTS));
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.SAPPHIRE_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.SAPPHIRE_BOOTS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.REFINED_DIAMOND_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.REFINED_DIAMOND_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.REFINED_DIAMOND_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.REFINED_DIAMOND_BOOTS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.ZIRCON_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.ZIRCON_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.ZIRCON_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.ZIRCON_BOOTS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.OCARITE_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.OCARITE_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.OCARITE_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.OCARITE_BOOTS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.GLITCHITE_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.GLITCHITE_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.GLITCHITE_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.GLITCHITE_BOOTS);
     }
 }

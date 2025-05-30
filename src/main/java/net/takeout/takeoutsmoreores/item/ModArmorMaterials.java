@@ -17,7 +17,11 @@ public enum ModArmorMaterials implements ArmorMaterial {
     ZIRCON("zircon", 25, new int[] {3, 8, 6, 3}, 19,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.ZIRCON)),
     REFINED_DIAMOND("refined_diamond", 25, new int[] {3, 8, 7, 3}, 19,
-            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.REFINED_DIAMOND));
+            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.REFINED_DIAMOND)),
+    OCARITE("ocarite", 25, new int[] {3, 8, 6, 3}, 19,
+            SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.OCARITE)),
+    GLITCHITE("glitchite", 25, new int[] {3, 8, 6, 3}, 19,
+            SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.GLITCHITE));
 
     private final String name;
     private final int durabilityMultiplier;

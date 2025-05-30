@@ -92,6 +92,43 @@ public class ModItems {
     public static final Item SAPPHIRE_BOOTS = registerItem("sapphire_boots", new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS,
             new FabricItemSettings()));
 
+    public static final Item ZIRCON_HELMET = registerItem("zircon_helmet", new ArmorItem(ModArmorMaterials.ZIRCON, ArmorItem.Type.HELMET,
+            new FabricItemSettings()));
+    public static final Item ZIRCON_CHESTPLATE = registerItem("zircon_chestplate", new ArmorItem(ModArmorMaterials.ZIRCON, ArmorItem.Type.CHESTPLATE,
+            new FabricItemSettings()));
+    public static final Item ZIRCON_LEGGINGS = registerItem("zircon_leggings", new ArmorItem(ModArmorMaterials.ZIRCON, ArmorItem.Type.LEGGINGS,
+            new FabricItemSettings()));
+    public static final Item ZIRCON_BOOTS = registerItem("zircon_boots", new ArmorItem(ModArmorMaterials.ZIRCON, ArmorItem.Type.BOOTS,
+            new FabricItemSettings()));
+
+    public static final Item REFINED_DIAMOND_HELMET = registerItem("refined_diamond_helmet", new ArmorItem(ModArmorMaterials.REFINED_DIAMOND, ArmorItem.Type.HELMET,
+            new FabricItemSettings()));
+    public static final Item REFINED_DIAMOND_CHESTPLATE = registerItem("refined_diamond_chestplate", new ArmorItem(ModArmorMaterials.REFINED_DIAMOND, ArmorItem.Type.CHESTPLATE,
+            new FabricItemSettings()));
+    public static final Item REFINED_DIAMOND_LEGGINGS = registerItem("refined_diamond_leggings", new ArmorItem(ModArmorMaterials.REFINED_DIAMOND, ArmorItem.Type.LEGGINGS,
+            new FabricItemSettings()));
+    public static final Item REFINED_DIAMOND_BOOTS = registerItem("refined_diamond_boots", new ArmorItem(ModArmorMaterials.REFINED_DIAMOND, ArmorItem.Type.BOOTS,
+            new FabricItemSettings()));
+
+    public static final Item OCARITE_HELMET = registerItem("ocarite_helmet", new ArmorItem(ModArmorMaterials.OCARITE, ArmorItem.Type.HELMET,
+            new FabricItemSettings()));
+    public static final Item OCARITE_CHESTPLATE = registerItem("ocarite_chestplate", new ArmorItem(ModArmorMaterials.OCARITE, ArmorItem.Type.CHESTPLATE,
+            new FabricItemSettings()));
+    public static final Item OCARITE_LEGGINGS = registerItem("ocarite_leggings", new ArmorItem(ModArmorMaterials.OCARITE, ArmorItem.Type.LEGGINGS,
+            new FabricItemSettings()));
+    public static final Item OCARITE_BOOTS = registerItem("ocarite_boots", new ArmorItem(ModArmorMaterials.OCARITE, ArmorItem.Type.BOOTS,
+            new FabricItemSettings()));
+
+    public static final Item GLITCHITE_HELMET = registerItem("glitchite_helmet", new ArmorItem(ModArmorMaterials.GLITCHITE, ArmorItem.Type.HELMET,
+            new FabricItemSettings()));
+    public static final Item GLITCHITE_CHESTPLATE = registerItem("glitchite_chestplate", new ArmorItem(ModArmorMaterials.GLITCHITE, ArmorItem.Type.CHESTPLATE,
+            new FabricItemSettings()));
+    public static final Item GLITCHITE_LEGGINGS = registerItem("glitchite_leggings", new ArmorItem(ModArmorMaterials.GLITCHITE, ArmorItem.Type.LEGGINGS,
+            new FabricItemSettings()));
+    public static final Item GLITCHITE_BOOTS = registerItem("glitchite_boots", new ArmorItem(ModArmorMaterials.GLITCHITE, ArmorItem.Type.BOOTS,
+            new FabricItemSettings()));
+
+
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem
             (new FabricItemSettings().maxDamage(64)));
 
