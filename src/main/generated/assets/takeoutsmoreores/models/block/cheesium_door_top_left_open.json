@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "takeoutsmoreores:block/cheesium_door_bottom",
+    "top": "takeoutsmoreores:block/cheesium_door_top"
+  }
+}

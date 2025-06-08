@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "takeoutsmoreores:block/ocarite_block",
+    "side": "takeoutsmoreores:block/ocarite_block",
+    "top": "takeoutsmoreores:block/ocarite_block"
+  }
+}

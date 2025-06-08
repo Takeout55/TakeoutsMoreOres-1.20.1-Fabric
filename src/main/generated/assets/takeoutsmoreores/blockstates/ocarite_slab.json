@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "takeoutsmoreores:block/ocarite_slab"
+    },
+    "type=double": {
+      "model": "takeoutsmoreores:block/ocarite_block"
+    },
+    "type=top": {
+      "model": "takeoutsmoreores:block/ocarite_slab_top"
+    }
+  }
+}
