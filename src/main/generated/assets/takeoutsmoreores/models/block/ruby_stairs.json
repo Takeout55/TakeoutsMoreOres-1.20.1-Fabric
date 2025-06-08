@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "takeoutsmoreores:block/ruby_block",
-    "side": "takeoutsmoreores:block/ruby_block",
-    "top": "takeoutsmoreores:block/ruby_block"
-  }
-}
