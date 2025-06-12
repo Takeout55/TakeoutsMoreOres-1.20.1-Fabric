@@ -33,6 +33,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CHEESIUM_BLOCK);
         addDrop(ModBlocks.OCARITE_BLOCK);
         addDrop(ModBlocks.GLITCHITE_BLOCK);
+        addDrop(ModBlocks.PLUNGITE_BLOCK);
+        addDrop(ModBlocks.CHEEKIUM_BLOCK);
 
         addDrop(ModBlocks.RUBY_STAIRS);
         addDrop(ModBlocks.RUBY_FENCE);
@@ -53,6 +55,26 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SAPPHIRE_TRAPDOOR);
         addDrop(ModBlocks.SAPPHIRE_DOOR, doorDrops(ModBlocks.SAPPHIRE_DOOR));
         addDrop(ModBlocks.SAPPHIRE_SLAB, slabDrops(ModBlocks.SAPPHIRE_SLAB));
+
+        addDrop(ModBlocks.PLUNGITE_STAIRS);
+        addDrop(ModBlocks.PLUNGITE_FENCE);
+        addDrop(ModBlocks.PLUNGITE_FENCE_GATE);
+        addDrop(ModBlocks.PLUNGITE_WALL);
+        addDrop(ModBlocks.PLUNGITE_BUTTON);
+        addDrop(ModBlocks.PLUNGITE_PRESSURE_PLATE);
+        //addDrop(ModBlocks.PLUNGITE_TRAPDOOR);
+        //addDrop(ModBlocks.PLUNGITE_DOOR, doorDrops(ModBlocks.PLUNGITE_DOOR));
+        addDrop(ModBlocks.PLUNGITE_SLAB, slabDrops(ModBlocks.PLUNGITE_SLAB));
+
+        addDrop(ModBlocks.CHEEKIUM_STAIRS);
+        addDrop(ModBlocks.CHEEKIUM_FENCE);
+        addDrop(ModBlocks.CHEEKIUM_FENCE_GATE);
+        addDrop(ModBlocks.CHEEKIUM_WALL);
+        addDrop(ModBlocks.CHEEKIUM_BUTTON);
+        addDrop(ModBlocks.CHEEKIUM_PRESSURE_PLATE);
+        //addDrop(ModBlocks.CHEEKIUM_TRAPDOOR);
+        //addDrop(ModBlocks.CHEEKIUM_DOOR, doorDrops(ModBlocks.CHEEKIUM_DOOR));
+        addDrop(ModBlocks.CHEEKIUM_SLAB, slabDrops(ModBlocks.CHEEKIUM_SLAB));
 
         addDrop(ModBlocks.RUBY_ORE, copperLikeOreDrops(ModBlocks.RUBY_ORE, ModItems.RAW_RUBY));
         addDrop(ModBlocks.DEEPSLATE_RUBY_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_RUBY_ORE, ModItems.RAW_RUBY));
@@ -88,6 +110,21 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DEEPSLATE_OCARITE_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_OCARITE_ORE, ModItems.OCARITE));
         addDrop(ModBlocks.NETHER_OCARITE_ORE, copperLikeOreDrops(ModBlocks.NETHER_OCARITE_ORE, ModItems.OCARITE));
         addDrop(ModBlocks.END_STONE_OCARITE_ORE, copperLikeOreDrops(ModBlocks.END_STONE_OCARITE_ORE, ModItems.OCARITE));
+
+        addDrop(ModBlocks.CHEESIUM_ORE, copperLikeOreDrops(ModBlocks.CHEESIUM_ORE, ModItems.RAW_CHEESIUM));
+        addDrop(ModBlocks.DEEPSLATE_CHEESIUM_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_CHEESIUM_ORE, ModItems.RAW_CHEESIUM));
+        addDrop(ModBlocks.NETHER_CHEESIUM_ORE, copperLikeOreDrops(ModBlocks.NETHER_CHEESIUM_ORE, ModItems.RAW_CHEESIUM));
+        addDrop(ModBlocks.END_STONE_CHEESIUM_ORE, copperLikeOreDrops(ModBlocks.END_STONE_CHEESIUM_ORE, ModItems.RAW_CHEESIUM));
+
+        addDrop(ModBlocks.CHEEKIUM_ORE, copperLikeOreDrops(ModBlocks.CHEEKIUM_ORE, ModItems.RAW_CHEEKIUM));
+        addDrop(ModBlocks.DEEPSLATE_CHEEKIUM_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_CHEEKIUM_ORE, ModItems.RAW_CHEEKIUM));
+        addDrop(ModBlocks.NETHER_CHEEKIUM_ORE, copperLikeOreDrops(ModBlocks.NETHER_CHEEKIUM_ORE, ModItems.RAW_CHEEKIUM));
+        addDrop(ModBlocks.END_STONE_CHEEKIUM_ORE, copperLikeOreDrops(ModBlocks.END_STONE_CHEEKIUM_ORE, ModItems.RAW_CHEEKIUM));
+
+        addDrop(ModBlocks.PLUNGITE_ORE, copperLikeOreDrops(ModBlocks.PLUNGITE_ORE, ModItems.RAW_PLUNGITE));
+        addDrop(ModBlocks.DEEPSLATE_PLUNGITE_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_PLUNGITE_ORE, ModItems.RAW_PLUNGITE));
+        addDrop(ModBlocks.NETHER_PLUNGITE_ORE, copperLikeOreDrops(ModBlocks.NETHER_PLUNGITE_ORE, ModItems.RAW_PLUNGITE));
+        addDrop(ModBlocks.END_STONE_PLUNGITE_ORE, copperLikeOreDrops(ModBlocks.END_STONE_PLUNGITE_ORE, ModItems.RAW_PLUNGITE));
     }
 
     public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {

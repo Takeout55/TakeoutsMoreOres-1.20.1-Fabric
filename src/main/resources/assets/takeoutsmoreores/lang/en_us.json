@@ -224,5 +224,22 @@
   "block.takeoutsmoreores.cheesium_ore": "Cheesium Ore",
   "block.takeoutsmoreores.deepslate_cheesium_ore": "Deepslate Cheesium Ore",
   "block.takeoutsmoreores.nether_cheesium_ore": "Nether Cheesium Ore",
-  "block.takeoutsmoreores.end_stone_cheesium_ore": "End Stone Cheesium Ore"
+  "block.takeoutsmoreores.end_stone_cheesium_ore": "End Stone Cheesium Ore",
+  "block.takeoutsmoreores.cheekium_block": "Cheekium Block",
+  "block.takeoutsmoreores.plungite_block": "Plungite Block",
+  "block.takeoutsmoreores.plungite_stairs": "Plungite Stairs",
+  "block.takeoutsmoreores.plungite_wall": "Plungite Wall",
+  "block.takeoutsmoreores.plungite_fence": "Plungite Fence",
+  "block.takeoutsmoreores.plungite_fence_gate": "Plungite Fence Gate",
+  "block.takeoutsmoreores.plungite_button": "Plungite Button",
+  "block.takeoutsmoreores.plungite_pressure_plate": "Plungite Pressure Plate",
+  "block.takeoutsmoreores.plungite_slab": "Plungite Slab",
+  "block.takeoutsmoreores.cheekium_stairs": "Cheekium Stairs",
+  "block.takeoutsmoreores.cheekium_wall": "Cheekium Wall",
+  "block.takeoutsmoreores.cheekium_fence": "Cheekium Fence",
+  "block.takeoutsmoreores.cheekium_fence_gate": "Cheekium Fence Gate",
+  "block.takeoutsmoreores.cheekium_button": "Cheekium Button",
+  "block.takeoutsmoreores.cheekium_pressure_plate": "Cheekium Pressure Plate",
+  "block.takeoutsmoreores.cheekium_slab": "Cheekium Slab",
+  "item.takeoutsmoreores.raw_thimeite": "Raw Thimeite"
 }

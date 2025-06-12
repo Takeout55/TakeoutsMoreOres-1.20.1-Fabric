@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "takeoutsmoreores:block/plungite_slab"
+    },
+    "type=double": {
+      "model": "takeoutsmoreores:block/plungite_block"
+    },
+    "type=top": {
+      "model": "takeoutsmoreores:block/plungite_slab_top"
+    }
+  }
+}

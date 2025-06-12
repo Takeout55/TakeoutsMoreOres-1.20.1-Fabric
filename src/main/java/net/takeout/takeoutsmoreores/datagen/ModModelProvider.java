@@ -25,6 +25,8 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool ocaritePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.OCARITE_BLOCK);
         BlockStateModelGenerator.BlockTexturePool cheesiumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHEESIUM_BLOCK);
         BlockStateModelGenerator.BlockTexturePool eariumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.EARIUM_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool plungitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PLUNGITE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool cheekiumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHEEKIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_RUBY_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_SAPPHIRE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_ORE);
@@ -157,6 +159,26 @@ public class ModModelProvider extends FabricModelProvider {
         eariumPool.wall(ModBlocks.EARIUM_WALL);
         blockStateModelGenerator.registerDoor(ModBlocks.EARIUM_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.EARIUM_TRAPDOOR);
+
+        plungitePool.stairs(ModBlocks.PLUNGITE_STAIRS);
+        plungitePool.slab(ModBlocks.PLUNGITE_SLAB);
+        plungitePool.button(ModBlocks.PLUNGITE_BUTTON);
+        plungitePool.pressurePlate(ModBlocks.PLUNGITE_PRESSURE_PLATE);
+        plungitePool.fence(ModBlocks.PLUNGITE_FENCE);
+        plungitePool.fenceGate(ModBlocks.PLUNGITE_FENCE_GATE);
+        plungitePool.wall(ModBlocks.PLUNGITE_WALL);
+        //blockStateModelGenerator.registerDoor(ModBlocks.PLUNGITE_DOOR);
+        //blockStateModelGenerator.registerTrapdoor(ModBlocks.PLUNGITE_TRAPDOOR);
+
+        cheekiumPool.stairs(ModBlocks.CHEEKIUM_STAIRS);
+        cheekiumPool.slab(ModBlocks.CHEEKIUM_SLAB);
+        cheekiumPool.button(ModBlocks.CHEEKIUM_BUTTON);
+        cheekiumPool.pressurePlate(ModBlocks.CHEEKIUM_PRESSURE_PLATE);
+        cheekiumPool.fence(ModBlocks.CHEEKIUM_FENCE);
+        cheekiumPool.fenceGate(ModBlocks.CHEEKIUM_FENCE_GATE);
+        cheekiumPool.wall(ModBlocks.CHEEKIUM_WALL);
+        //blockStateModelGenerator.registerDoor(ModBlocks.CHEEKIUM_DOOR);
+        //blockStateModelGenerator.registerTrapdoor(ModBlocks.CHEEKIUM_TRAPDOOR);
 
     }
 

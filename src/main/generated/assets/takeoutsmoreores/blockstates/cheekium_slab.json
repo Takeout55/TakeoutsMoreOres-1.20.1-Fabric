@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "takeoutsmoreores:block/cheekium_slab"
+    },
+    "type=double": {
+      "model": "takeoutsmoreores:block/cheekium_block"
+    },
+    "type=top": {
+      "model": "takeoutsmoreores:block/cheekium_slab_top"
+    }
+  }
+}

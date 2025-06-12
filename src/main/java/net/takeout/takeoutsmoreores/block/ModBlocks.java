@@ -35,6 +35,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block REFINED_DIAMOND_BLOCK = registerBlock("refined_diamond_block",
             new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
+    public static final Block CHEEKIUM_BLOCK = registerBlock("cheekium_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
+    public static final Block PLUNGITE_BLOCK = registerBlock("plungite_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
 
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
@@ -299,6 +303,44 @@ public class ModBlocks {
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(ModBlocks.EARIUM_BLOCK), BlockSetType.IRON));
     public static final Block EARIUM_WALL = registerBlock("earium_wall",
             new WallBlock(FabricBlockSettings.copyOf(ModBlocks.EARIUM_BLOCK)));
+
+    public static final Block CHEEKIUM_STAIRS = registerBlock("cheekium_stairs",
+            new StairsBlock(ModBlocks.CHEEKIUM_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.CHEEKIUM_BLOCK)));
+    public static final Block CHEEKIUM_SLAB = registerBlock("cheekium_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.CHEEKIUM_BLOCK)));
+    //public static final Block CHEEKIUM_DOOR = registerBlock("cheekium_door",
+    //        new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.CHEEKIUM_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block CHEEKIUM_FENCE = registerBlock("cheekium_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.CHEEKIUM_BLOCK)));
+    public static final Block CHEEKIUM_FENCE_GATE = registerBlock("cheekium_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.CHEEKIUM_BLOCK), WoodType.ACACIA));
+    //public static final Block CHEEKIUM_TRAPDOOR = registerBlock("cheekium_trapdoor",
+    //        new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.CHEEKIUM_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block CHEEKIUM_BUTTON = registerBlock("cheekium_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.CHEEKIUM_BLOCK), BlockSetType.IRON, 10, true));
+    public static final Block CHEEKIUM_PRESSURE_PLATE = registerBlock("cheekium_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(ModBlocks.CHEEKIUM_BLOCK), BlockSetType.IRON));
+    public static final Block CHEEKIUM_WALL = registerBlock("cheekium_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.CHEEKIUM_BLOCK)));
+
+    public static final Block PLUNGITE_STAIRS = registerBlock("plungite_stairs",
+            new StairsBlock(ModBlocks.PLUNGITE_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.PLUNGITE_BLOCK)));
+    public static final Block PLUNGITE_SLAB = registerBlock("plungite_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.PLUNGITE_BLOCK)));
+    //public static final Block PLUNGITE_DOOR = registerBlock("plungite_door",
+    //        new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.PLUNGITE_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block PLUNGITE_FENCE = registerBlock("plungite_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.PLUNGITE_BLOCK)));
+    public static final Block PLUNGITE_FENCE_GATE = registerBlock("plungite_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.PLUNGITE_BLOCK), WoodType.ACACIA));
+    //public static final Block CHEEKIUM_TRAPDOOR = registerBlock("plungite_trapdoor",
+    //        new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.PLUNGITE_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block PLUNGITE_BUTTON = registerBlock("plungite_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.PLUNGITE_BLOCK), BlockSetType.IRON, 10, true));
+    public static final Block PLUNGITE_PRESSURE_PLATE = registerBlock("plungite_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(ModBlocks.PLUNGITE_BLOCK), BlockSetType.IRON));
+    public static final Block PLUNGITE_WALL = registerBlock("plungite_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.PLUNGITE_BLOCK)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

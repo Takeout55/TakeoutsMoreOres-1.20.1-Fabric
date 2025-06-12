@@ -2,7 +2,6 @@ package net.takeout.takeoutsmoreores.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
@@ -57,6 +56,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_PLUNGITE_ORE)
                 .add(ModBlocks.END_STONE_PLUNGITE_ORE)
                 .add(ModBlocks.NETHER_PLUNGITE_ORE)
+                .add(ModBlocks.PLUNGITE_BLOCK)
+                .add(ModBlocks.CHEEKIUM_BLOCK)
                 .forceAddTag(BlockTags.GOLD_ORES)
                 .forceAddTag(BlockTags.EMERALD_ORES)
                 .forceAddTag(BlockTags.REDSTONE_ORES)
@@ -115,6 +116,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PLUNGITE_ORE)
                 .add(ModBlocks.DEEPSLATE_PLUNGITE_ORE)
                 .add(ModBlocks.END_STONE_PLUNGITE_ORE)
+                .add(ModBlocks.PLUNGITE_BLOCK)
+                .add(ModBlocks.CHEEKIUM_BLOCK)
                 .add(ModBlocks.NETHER_PLUNGITE_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
@@ -166,7 +169,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PLUNGITE_ORE)
                 .add(ModBlocks.DEEPSLATE_PLUNGITE_ORE)
                 .add(ModBlocks.END_STONE_PLUNGITE_ORE)
-                .add(ModBlocks.NETHER_PLUNGITE_ORE);
+                .add(ModBlocks.NETHER_PLUNGITE_ORE)
+                .add(ModBlocks.PLUNGITE_BLOCK)
+                .add(ModBlocks.CHEEKIUM_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE)
@@ -187,7 +192,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ZIRCON_FENCE)
                 .add(ModBlocks.OCARITE_FENCE)
                 .add(ModBlocks.CHEESIUM_FENCE)
-                .add(ModBlocks.EARIUM_FENCE);
+                .add(ModBlocks.EARIUM_FENCE)
+                .add(ModBlocks.PLUNGITE_FENCE)
+                .add(ModBlocks.CHEEKIUM_FENCE);
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.RUBY_FENCE_GATE)
@@ -198,7 +205,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ZIRCON_FENCE_GATE)
                 .add(ModBlocks.OCARITE_FENCE_GATE)
                 .add(ModBlocks.CHEESIUM_FENCE_GATE)
-                .add(ModBlocks.EARIUM_FENCE_GATE);
+                .add(ModBlocks.EARIUM_FENCE_GATE)
+                .add(ModBlocks.PLUNGITE_FENCE_GATE)
+                .add(ModBlocks.CHEEKIUM_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.RUBY_WALL)
@@ -209,6 +218,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ZIRCON_WALL)
                 .add(ModBlocks.OCARITE_WALL)
                 .add(ModBlocks.CHEESIUM_WALL)
-                .add(ModBlocks.EARIUM_WALL);
+                .add(ModBlocks.EARIUM_WALL)
+                .add(ModBlocks.PLUNGITE_WALL)
+                .add(ModBlocks.CHEEKIUM_WALL);
     }
 }

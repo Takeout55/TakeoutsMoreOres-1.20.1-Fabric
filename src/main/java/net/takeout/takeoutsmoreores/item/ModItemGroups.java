@@ -41,6 +41,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_ENDITE);
                         entries.add(ModItems.RAW_CHEEKIUM);
                         entries.add(ModItems.RAW_PLUNGITE);
+                        entries.add(ModItems.RAW_THIMEITE);
                         entries.add(ModItems.VINYL_TEMPLATE);
                         entries.add(ModItems.THIMEITE_MUSIC_DISC);
                         entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
@@ -118,6 +119,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHEESIUM_BLOCK);
                         entries.add(ModBlocks.OCARITE_BLOCK);
                         entries.add(ModBlocks.EARIUM_BLOCK);
+                        entries.add(ModBlocks.CHEEKIUM_BLOCK);
+                        entries.add(ModBlocks.PLUNGITE_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.GASNITE_ORE);
                         entries.add(ModBlocks.ZIRCON_ORE);
@@ -190,7 +193,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GLITCHITE_FENCE);
                         entries.add(ModBlocks.GLITCHITE_FENCE_GATE);
                         entries.add(ModBlocks.GLITCHITE_WALL);
-                        //entries.add(ModBlocks.GLITCHITE_DOOR);
                         entries.add(ModBlocks.GLITCHITE_TRAPDOOR);
                         entries.add(ModBlocks.GLITCHITE_BUTTON);
                         entries.add(ModBlocks.GLITCHITE_PRESSURE_PLATE);
@@ -199,8 +201,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.THIMEITE_FENCE);
                         entries.add(ModBlocks.THIMEITE_FENCE_GATE);
                         entries.add(ModBlocks.THIMEITE_WALL);
-                        //entries.add(ModBlocks.THIMEITE_DOOR);
-                        //entries.add(ModBlocks.THIMEITE_TRAPDOOR);
                         entries.add(ModBlocks.THIMEITE_BUTTON);
                         entries.add(ModBlocks.THIMEITE_PRESSURE_PLATE);
                         entries.add(ModBlocks.THIMEITE_SLAB);
@@ -217,8 +217,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.OCARITE_FENCE);
                         entries.add(ModBlocks.OCARITE_FENCE_GATE);
                         entries.add(ModBlocks.OCARITE_WALL);
-                        //entries.add(ModBlocks.OCARITE_DOOR);
-                        //entries.add(ModBlocks.OCARITE_TRAPDOOR);
                         entries.add(ModBlocks.OCARITE_BUTTON);
                         entries.add(ModBlocks.OCARITE_PRESSURE_PLATE);
                         entries.add(ModBlocks.OCARITE_SLAB);
@@ -240,6 +238,19 @@ public class ModItemGroups {
                         entries.add(ModBlocks.EARIUM_BUTTON);
                         entries.add(ModBlocks.EARIUM_PRESSURE_PLATE);
                         entries.add(ModBlocks.EARIUM_SLAB);
+                        entries.add(ModBlocks.PLUNGITE_STAIRS);
+                        entries.add(ModBlocks.PLUNGITE_FENCE);
+                        entries.add(ModBlocks.PLUNGITE_FENCE_GATE);
+                        entries.add(ModBlocks.PLUNGITE_WALL);
+                        entries.add(ModBlocks.PLUNGITE_BUTTON);
+                        entries.add(ModBlocks.PLUNGITE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CHEEKIUM_SLAB);
+                        entries.add(ModBlocks.CHEEKIUM_STAIRS);
+                        entries.add(ModBlocks.CHEEKIUM_FENCE);
+                        entries.add(ModBlocks.CHEEKIUM_FENCE_GATE);
+                        entries.add(ModBlocks.CHEEKIUM_WALL);
+                        entries.add(ModBlocks.CHEEKIUM_BUTTON);
+                        entries.add(ModBlocks.CHEEKIUM_PRESSURE_PLATE);
                     }).build());
 
 
