@@ -46,9 +46,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 0.7f, 200, "zircon");
         offerBlasting(exporter, ZIRCON_SMELTABLES, RecipeCategory.MISC, ModItems.ZIRCON,
                 0.7f, 100, "zircon");
-        offerSmelting(exporter, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.ZIRCON,
+        offerSmelting(exporter, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE,
                 0.7f, 200, "sapphire");
-        offerBlasting(exporter, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.ZIRCON,
+        offerBlasting(exporter, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE,
                 0.7f, 100, "sapphire");
 
 

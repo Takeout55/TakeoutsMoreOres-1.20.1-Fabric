@@ -15,122 +15,118 @@ public class ModBlocks {
 
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-
     public static final Block ZIRCON_BLOCK = registerBlock("zircon_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-
     public static final Block RAW_SAPPHIRE_BLOCK = registerBlock("raw_sapphire_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-
     public static final Block SAPPHIRE_BLOCK = registerBlock("sapphire_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-
     public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
+    public static final Block GLITCHITE_BLOCK = registerBlock("glitchite_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block THIMEITE_BLOCK = registerBlock("thimeite_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
+    public static final Block OCARITE_BLOCK = registerBlock("ocarite_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
+    public static final Block CHEESIUM_BLOCK = registerBlock("cheesium_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
+    public static final Block EARIUM_BLOCK = registerBlock("earium_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block REFINED_DIAMOND_BLOCK = registerBlock("refined_diamond_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
 
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
-
     public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
-
     public static final Block NETHER_RUBY_ORE = registerBlock("nether_ruby_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
-
     public static final Block END_STONE_RUBY_ORE = registerBlock("end_stone_ruby_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
 
     public static final Block GASNITE_ORE = registerBlock("gasnite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
-
     public static final Block DEEPSLATE_GASNITE_ORE = registerBlock("deepslate_gasnite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
-
     public static final Block NETHER_GASNITE_ORE = registerBlock("nether_gasnite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
-
     public static final Block END_STONE_GASNITE_ORE = registerBlock("end_stone_gasnite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
 
     public static final Block SAPPHIRE_ORE = registerBlock("sapphire_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
-
     public static final Block DEEPSLATE_SAPPHIRE_ORE = registerBlock("deepslate_sapphire_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
-
     public static final Block NETHER_SAPPHIRE_ORE = registerBlock("nether_sapphire_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
-
     public static final Block END_STONE_SAPPHIRE_ORE = registerBlock("end_stone_sapphire_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
 
     public static final Block ZIRCON_ORE = registerBlock("zircon_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
-
     public static final Block DEEPSLATE_ZIRCON_ORE = registerBlock("deepslate_zircon_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
-
     public static final Block NETHER_ZIRCON_ORE = registerBlock("nether_zircon_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
-
     public static final Block END_STONE_ZIRCON_ORE = registerBlock("end_stone_zircon_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
-
-    public static final Block REFINED_DIAMOND_BLOCK = registerBlock("refined_diamond_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
 
     public static final Block ANCIENT_VOIDSTONE = registerBlock("ancient_voidstone",
             new Block(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
 
     public static final Block GLITCHITE_ORE = registerBlock("glitchite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
-
     public static final Block DEEPSLATE_GLITCHITE_ORE = registerBlock("deepslate_glitchite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
-
     public static final Block END_STONE_GLITCHITE_ORE = registerBlock("end_stone_glitchite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
-
     public static final Block NETHER_GLITCHITE_ORE = registerBlock("nether_glitchite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
 
-    public static final Block GLITCHITE_BLOCK = registerBlock("glitchite_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-
-    public static final Block THIMEITE_BLOCK = registerBlock("thimeite_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
-
-    public static final Block OCARITE_BLOCK = registerBlock("ocarite_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
-
-    public static final Block CHEESIUM_BLOCK = registerBlock("cheesium_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
-
-    public static final Block EARIUM_BLOCK = registerBlock("earium_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-
     public static final Block THIMEITE_ORE = registerBlock("thimeite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
-
     public static final Block DEEPSLATE_THIMEITE_ORE = registerBlock("deepslate_thimeite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
-
     public static final Block END_STONE_THIMEITE_ORE = registerBlock("end_stone_thimeite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
-
     public static final Block NETHER_THIMEITE_ORE = registerBlock("nether_thimeite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
 
     public static final Block OCARITE_ORE = registerBlock("ocarite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
-
     public static final Block DEEPSLATE_OCARITE_ORE = registerBlock("deepslate_ocarite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
-
     public static final Block END_STONE_OCARITE_ORE = registerBlock("end_stone_ocarite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
-
     public static final Block NETHER_OCARITE_ORE = registerBlock("nether_ocarite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
+
+    public static final Block PLUNGITE_ORE = registerBlock("plungite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+    public static final Block DEEPSLATE_PLUNGITE_ORE = registerBlock("deepslate_plungite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
+    public static final Block END_STONE_PLUNGITE_ORE = registerBlock("end_stone_plungite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block NETHER_PLUNGITE_ORE = registerBlock("nether_plungite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
+
+    public static final Block CHEEKIUM_ORE = registerBlock("cheekium_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+    public static final Block DEEPSLATE_CHEEKIUM_ORE = registerBlock("deepslate_cheekium_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
+    public static final Block END_STONE_CHEEKIUM_ORE = registerBlock("end_stone_cheekium_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block NETHER_CHEEKIUM_ORE = registerBlock("nether_cheekium_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
+
+    public static final Block CHEESIUM_ORE = registerBlock("cheesium_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+    public static final Block DEEPSLATE_CHEESIUM_ORE = registerBlock("deepslate_cheesium_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
+    public static final Block END_STONE_CHEESIUM_ORE = registerBlock("end_stone_cheesium_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block NETHER_CHEESIUM_ORE = registerBlock("nether_cheesium_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
 
     public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",

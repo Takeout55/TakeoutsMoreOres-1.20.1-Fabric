@@ -36,6 +36,11 @@ public class ModItems {
     public static final Item ENDITE_INGOT = registerItem("endite_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_ENDITE = registerItem("raw_endite", new Item(new FabricItemSettings()));
     public static final Item VINYL_TEMPLATE = registerItem("vinyl_template", new Item(new FabricItemSettings()));
+    public static final Item RAW_CHEEKIUM = registerItem("raw_cheekium", new Item(new FabricItemSettings()));
+    public static final Item CHEEKIUM = registerItem("cheekium", new Item(new FabricItemSettings()));
+    public static final Item PLUNGITE = registerItem("plungite", new Item(new FabricItemSettings()));
+    public static final Item RAW_PLUNGITE = registerItem("raw_plungite", new Item(new FabricItemSettings()));
+    public static final Item RAW_THIMEITE = registerItem("raw_thimeite", new Item(new FabricItemSettings()));
 
     public static final Item RUBY_STAFF = registerItem("ruby_staff", new Item(new FabricItemSettings().maxCount(1)));
     public static final Item SAPPHIRE_STAFF = registerItem("sapphire_staff", new Item(new FabricItemSettings().maxCount(1)));
@@ -74,6 +79,36 @@ public class ModItems {
             new FabricItemSettings()));
 
     public static final Item THIMEITE_SCYTHE = registerItem("thimeite_scythe", new SwordItem(ModToolMaterial.THIMEITE, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item THIMEITE_AXE = registerItem("thimeite_axe", new AxeItem(ModToolMaterial.THIMEITE, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item THIMEITE_SHOVEL = registerItem("thimeite_shovel", new ShovelItem(ModToolMaterial.THIMEITE, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item THIMEITE_PICKAXE = registerItem("thimeite_pickaxe", new PickaxeItem(ModToolMaterial.THIMEITE, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item THIMEITE_HOE = registerItem("thimeite_hoe", new HoeItem(ModToolMaterial.THIMEITE, 2, 2f,
+            new FabricItemSettings()));
+
+    public static final Item PLUNGITE_SWORD = registerItem("plungite_sword", new SwordItem(ModToolMaterial.PLUNGITE, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item PLUNGITE_AXE = registerItem("plungite_axe", new AxeItem(ModToolMaterial.PLUNGITE, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item PLUNGITE_SHOVEL = registerItem("plungite_shovel", new ShovelItem(ModToolMaterial.PLUNGITE, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item PLUNGITE_PICKAXE = registerItem("plungite_pickaxe", new PickaxeItem(ModToolMaterial.PLUNGITE, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item PLUNGITE_HOE = registerItem("plungite_hoe", new HoeItem(ModToolMaterial.PLUNGITE, 2, 2f,
+            new FabricItemSettings()));
+
+    public static final Item CHEEKIUM_SWORD = registerItem("cheekium_sword", new SwordItem(ModToolMaterial.CHEEKIUM, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item CHEEKIUM_AXE = registerItem("cheekium_axe", new AxeItem(ModToolMaterial.CHEEKIUM, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item CHEEKIUM_SHOVEL = registerItem("cheekium_shovel", new ShovelItem(ModToolMaterial.CHEEKIUM, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item CHEEKIUM_PICKAXE = registerItem("cheekium_pickaxe", new PickaxeItem(ModToolMaterial.CHEEKIUM, 2, 2f,
+            new FabricItemSettings()));
+    public static final Item CHEEKIUM_HOE = registerItem("cheekium_hoe", new HoeItem(ModToolMaterial.CHEEKIUM, 2, 2f,
             new FabricItemSettings()));
 
     public static final Item RUBY_HELMET = registerItem("ruby_helmet", new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET,

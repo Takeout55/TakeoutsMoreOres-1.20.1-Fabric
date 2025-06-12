@@ -30,6 +30,8 @@ public class ModItemGroups {
                         entries.add(ModItems.EARIUM);
                         entries.add(ModItems.PINKITE_INGOT);
                         entries.add(ModItems.ENDITE_INGOT);
+                        entries.add(ModItems.PLUNGITE);
+                        entries.add(ModItems.CHEEKIUM);
                         entries.add(ModItems.RAW_SAPPHIRE);
                         entries.add(ModItems.RAW_ZIRCON);
                         entries.add(ModItems.RAW_RUBY);
@@ -37,6 +39,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_EARIUM);
                         entries.add(ModItems.RAW_PINKITE);
                         entries.add(ModItems.RAW_ENDITE);
+                        entries.add(ModItems.RAW_CHEEKIUM);
+                        entries.add(ModItems.RAW_PLUNGITE);
                         entries.add(ModItems.VINYL_TEMPLATE);
                         entries.add(ModItems.THIMEITE_MUSIC_DISC);
                         entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
@@ -59,6 +63,20 @@ public class ModItemGroups {
                         entries.add(ModItems.REFINED_DIAMOND_SHOVEL);
                         entries.add(ModItems.REFINED_DIAMOND_HOE);
                         entries.add(ModItems.THIMEITE_SCYTHE);
+                        entries.add(ModItems.THIMEITE_PICKAXE);
+                        entries.add(ModItems.THIMEITE_AXE);
+                        entries.add(ModItems.THIMEITE_SHOVEL);
+                        entries.add(ModItems.THIMEITE_HOE);
+                        entries.add(ModItems.PLUNGITE_SWORD);
+                        entries.add(ModItems.PLUNGITE_PICKAXE);
+                        entries.add(ModItems.PLUNGITE_AXE);
+                        entries.add(ModItems.PLUNGITE_SHOVEL);
+                        entries.add(ModItems.PLUNGITE_HOE);
+                        entries.add(ModItems.CHEEKIUM_SWORD);
+                        entries.add(ModItems.CHEEKIUM_PICKAXE);
+                        entries.add(ModItems.CHEEKIUM_AXE);
+                        entries.add(ModItems.CHEEKIUM_SHOVEL);
+                        entries.add(ModItems.CHEEKIUM_HOE);
                         entries.add(ModItems.RUBY_HELMET);
                         entries.add(ModItems.RUBY_CHESTPLATE);
                         entries.add(ModItems.RUBY_LEGGINGS);
@@ -107,6 +125,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GLITCHITE_ORE);
                         entries.add(ModBlocks.THIMEITE_ORE);
                         entries.add(ModBlocks.OCARITE_ORE);
+                        entries.add(ModBlocks.CHEEKIUM_ORE);
+                        entries.add(ModBlocks.CHEESIUM_ORE);
+                        entries.add(ModBlocks.PLUNGITE_ORE);
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ModBlocks.DEEPSLATE_GASNITE_ORE);
                         entries.add(ModBlocks.DEEPSLATE_ZIRCON_ORE);
@@ -114,6 +135,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_GLITCHITE_ORE);
                         entries.add(ModBlocks.DEEPSLATE_THIMEITE_ORE);
                         entries.add(ModBlocks.DEEPSLATE_OCARITE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_CHEEKIUM_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_CHEESIUM_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_PLUNGITE_ORE);
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
                         entries.add(ModBlocks.NETHER_GASNITE_ORE);
                         entries.add(ModBlocks.NETHER_ZIRCON_ORE);
@@ -121,6 +145,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.NETHER_GLITCHITE_ORE);
                         entries.add(ModBlocks.NETHER_THIMEITE_ORE);
                         entries.add(ModBlocks.NETHER_OCARITE_ORE);
+                        entries.add(ModBlocks.NETHER_CHEEKIUM_ORE);
+                        entries.add(ModBlocks.NETHER_CHEESIUM_ORE);
+                        entries.add(ModBlocks.NETHER_PLUNGITE_ORE);
                         entries.add(ModBlocks.END_STONE_RUBY_ORE);
                         entries.add(ModBlocks.END_STONE_GASNITE_ORE);
                         entries.add(ModBlocks.END_STONE_ZIRCON_ORE);
@@ -128,6 +155,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.END_STONE_GLITCHITE_ORE);
                         entries.add(ModBlocks.END_STONE_THIMEITE_ORE);
                         entries.add(ModBlocks.END_STONE_OCARITE_ORE);
+                        entries.add(ModBlocks.END_STONE_CHEEKIUM_ORE);
+                        entries.add(ModBlocks.END_STONE_CHEESIUM_ORE);
+                        entries.add(ModBlocks.END_STONE_PLUNGITE_ORE);
                         entries.add(ModBlocks.ANCIENT_VOIDSTONE);
                         entries.add(ModBlocks.RUBY_STAIRS);
                         entries.add(ModBlocks.RUBY_FENCE);

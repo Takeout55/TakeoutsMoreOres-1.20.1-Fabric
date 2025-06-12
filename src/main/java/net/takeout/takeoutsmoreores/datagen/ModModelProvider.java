@@ -55,6 +55,18 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_OCARITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_OCARITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_OCARITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHEESIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_CHEESIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_CHEESIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_CHEESIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHEEKIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_CHEEKIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_CHEEKIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_CHEEKIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PLUNGITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_PLUNGITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_PLUNGITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_PLUNGITE_ORE);
 
         rubyPool.stairs(ModBlocks.RUBY_STAIRS);
         rubyPool.slab(ModBlocks.RUBY_SLAB);
@@ -172,6 +184,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PINKITE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.ENDITE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.VINYL_TEMPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_PLUNGITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PLUNGITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHEEKIUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_CHEEKIUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_THIMEITE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.BAR_BRAWL_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.THIMEITE_MUSIC_DISC, Models.GENERATED);
@@ -193,6 +210,20 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.REFINED_DIAMOND_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.REFINED_DIAMOND_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.REFINED_DIAMOND_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CHEEKIUM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CHEEKIUM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CHEEKIUM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CHEEKIUM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CHEEKIUM_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PLUNGITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PLUNGITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PLUNGITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PLUNGITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PLUNGITE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.THIMEITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.THIMEITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.THIMEITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.THIMEITE_HOE, Models.HANDHELD);
 
         itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_HELMET);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_CHESTPLATE);
